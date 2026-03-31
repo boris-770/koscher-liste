@@ -101,7 +101,7 @@
 
     /* ── Camera / OCR section ── */
     .camera-section {
-      max-width: 700px;
+      max-width: 900px;
       margin: 20px auto 0;
       padding: 0 16px;
     }
@@ -141,25 +141,6 @@
 
     .upload-area strong { color: #1a3a5c; }
 
-    /* Image preview */
-    #img-preview-wrap {
-      margin-top: 16px;
-      border-radius: 10px;
-      overflow: hidden;
-      border: 1px solid #ddd;
-      background: #000;
-      display: none;
-      position: relative;
-    }
-
-    #img-preview {
-      display: block;
-      max-width: 100%;
-      max-height: 340px;
-      margin: 0 auto;
-      object-fit: contain;
-    }
-
     /* OCR progress */
     #ocr-status {
       margin-top: 14px;
@@ -189,59 +170,88 @@
       transition: width 0.3s;
     }
 
-    /* OCR results */
-    #ocr-results {
-      margin-top: 20px;
+    /* Image + words side-by-side */
+    #ocr-scan-panel {
+      display: none;
+      margin-top: 16px;
+      gap: 16px;
+      align-items: flex-start;
     }
 
-    .ocr-results-header {
-      font-size: 0.88rem;
-      color: #777;
-      margin-bottom: 10px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+    /* on wide screens: image left, words right */
+    @media (min-width: 560px) {
+      #ocr-scan-panel { display: none; } /* overridden by JS when visible */
+      #ocr-scan-panel.visible { display: flex; }
+      #img-preview-wrap { flex: 0 0 45%; max-width: 45%; }
+      #ocr-words-wrap   { flex: 1; }
     }
 
-    .ocr-result-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 12px 16px;
+    /* on narrow screens: stacked */
+    @media (max-width: 559px) {
+      #ocr-scan-panel.visible { display: block; }
+      #img-preview-wrap { margin-bottom: 12px; }
+    }
+
+    #img-preview-wrap {
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+      background: #111;
+    }
+
+    #img-preview {
+      display: block;
+      width: 100%;
+      max-height: 420px;
+      object-fit: contain;
+    }
+
+    #ocr-words-wrap {
       background: #fff;
-      border-radius: 8px;
-      margin-bottom: 8px;
       border: 1.5px solid #e0dbd0;
+      border-radius: 10px;
+      padding: 14px;
+      max-height: 420px;
+      overflow-y: auto;
+    }
+
+    .words-header {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #999;
+      margin-bottom: 10px;
+    }
+
+    .word-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .word-btn {
+      padding: 6px 12px;
+      border-radius: 20px;
+      border: 1.5px solid #c8c0a8;
+      background: #f7f5f0;
+      color: #2c2c2c;
+      font-size: 0.88rem;
       cursor: pointer;
-      transition: border-color 0.15s, box-shadow 0.15s;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+      line-height: 1.3;
     }
 
-    .ocr-result-item:hover {
+    .word-btn:hover {
+      background: #1a3a5c;
       border-color: #1a3a5c;
-      box-shadow: 0 2px 8px rgba(26,58,92,0.1);
+      color: #fff;
     }
 
-    .ocr-dot {
-      width: 14px;
-      height: 14px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    .dot-ok { background: #3aaa5e; }
-    .dot-npe { background: #e8a020; }
-    .dot-nko { background: #d63333; }
-    .dot-allowed { background: #3aaa5e; }
-
-    .ocr-item-name {
-      flex: 1;
-      font-size: 0.95rem;
-      font-weight: 600;
-    }
-
-    .ocr-item-status {
-      font-size: 0.82rem;
-      color: #666;
+    .word-btn.active {
+      background: #1a3a5c;
+      border-color: #1a3a5c;
+      color: #fff;
     }
 
     .ocr-none {
@@ -445,10 +455,6 @@
         Tippe hier, um die Kamera zu öffnen oder ein Bild auszuwählen</p>
     </div>
 
-    <div id="img-preview-wrap">
-      <img id="img-preview" alt="Vorschau">
-    </div>
-
     <div id="ocr-status">
       <div class="progress-label">
         <span id="ocr-status-text">Wird gescannt…</span>
@@ -459,7 +465,16 @@
       </div>
     </div>
 
-    <div id="ocr-results"></div>
+    <!-- Image left, word buttons right -->
+    <div id="ocr-scan-panel">
+      <div id="img-preview-wrap">
+        <img id="img-preview" alt="Vorschau">
+      </div>
+      <div id="ocr-words-wrap">
+        <div class="words-header">Erkannte Wörter — tippe zum Suchen</div>
+        <div class="word-buttons" id="word-buttons"></div>
+      </div>
+    </div>
 
   </div>
 </div>
@@ -739,30 +754,29 @@ uploadArea.addEventListener('drop', e => {
 
 photoInput.addEventListener('change', () => {
   if (photoInput.files[0]) processImage(photoInput.files[0]);
-  photoInput.value = ''; // reset so same file can be re-selected
+  photoInput.value = '';
 });
 
 async function processImage(file) {
-  // Show preview
-  const previewWrap = document.getElementById('img-preview-wrap');
-  const previewImg  = document.getElementById('img-preview');
-  const url = URL.createObjectURL(file);
-  previewImg.src = url;
-  previewWrap.style.display = 'block';
+  // Show image immediately
+  const previewImg = document.getElementById('img-preview');
+  previewImg.src = URL.createObjectURL(file);
 
-  // Clear previous OCR results
-  document.getElementById('ocr-results').innerHTML = '';
+  // Clear previous state
+  document.getElementById('word-buttons').innerHTML = '';
+  document.getElementById('ocr-scan-panel').classList.remove('visible');
   document.getElementById('pdf-section').style.display = 'none';
+  document.getElementById('result').innerHTML = '';
 
-  // Show progress
+  // Show progress bar
   const statusWrap = document.getElementById('ocr-status');
   const statusText = document.getElementById('ocr-status-text');
   const pctEl      = document.getElementById('ocr-pct');
   const barEl      = document.getElementById('ocr-bar');
   statusWrap.style.display = 'block';
-  statusText.textContent   = 'OCR wird initialisiert…';
-  pctEl.textContent = '0%';
   barEl.style.width = '0%';
+  pctEl.textContent = '0%';
+  statusText.textContent = 'OCR wird initialisiert…';
 
   try {
     const result = await Tesseract.recognize(file, 'deu', {
@@ -786,97 +800,57 @@ async function processImage(file) {
     pctEl.textContent = '100%';
     statusText.textContent = 'Scan abgeschlossen';
 
-    const rawText = result.data.text;
-    matchOcrResults(rawText);
+    renderWordButtons(result.data.words);
 
   } catch (err) {
     statusText.textContent = 'Fehler beim Scannen: ' + err.message;
-    barEl.style.width = '0%';
   }
 }
 
 /**
- * Try all n-gram windows (1–6 words) over every line of OCR output.
- * Collect best unique matches ranked by name length (longer = more specific).
+ * Show every OCR word as a clickable button next to the image.
+ * Words shorter than 2 chars or pure numbers/punctuation are skipped.
  */
-function matchOcrResults(rawText) {
-  if (!allData) {
-    document.getElementById('ocr-results').innerHTML =
-      '<div class="ocr-none">Daten werden noch geladen, bitte erneut versuchen.</div>';
-    return;
+function renderWordButtons(words) {
+  const panel      = document.getElementById('ocr-scan-panel');
+  const container  = document.getElementById('word-buttons');
+  container.innerHTML = '';
+
+  // Deduplicate while preserving order
+  const seen = new Set();
+  const unique = [];
+  for (const w of words) {
+    const text = w.text.trim().replace(/[«»„""''‚'()[\]{}<>]/g, '');
+    if (text.length < 2) continue;
+    if (/^[\d.,;:!?%&@#^*+=|\\/_-]+$/.test(text)) continue; // skip pure punctuation/numbers
+    const key = text.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(text);
   }
 
-  const lines = rawText.split(/\n+/).map(l => l.trim()).filter(l => l.length > 2);
-  const foundNames = new Set();
-  const hits = [];
+  if (unique.length === 0) {
+    container.innerHTML = '<div class="ocr-none">Keine Wörter erkannt. Bitte ein schärferes Bild versuchen.</div>';
+  } else {
+    unique.forEach(word => {
+      const btn = document.createElement('button');
+      btn.className = 'word-btn';
+      btn.textContent = word;
+      btn.addEventListener('click', () => {
+        // Highlight active button
+        container.querySelectorAll('.word-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
 
-  for (const line of lines) {
-    const words = line.split(/\s+/);
-    // Try ngrams from largest to smallest for best specificity
-    for (let size = Math.min(words.length, 7); size >= 1; size--) {
-      for (let start = 0; start <= words.length - size; start++) {
-        const phrase = words.slice(start, start + size).join(' ');
-        if (phrase.length < 3) continue;
-
-        const res = searchProducts(phrase);
-        if (res && !foundNames.has(norm(res.entry.name))) {
-          foundNames.add(norm(res.entry.name));
-          hits.push(res);
-        }
-      }
-    }
-  }
-
-  // Sort: medications first (have explicit status), then by name length desc
-  hits.sort((a, b) => {
-    if (a.type !== b.type) return a.type === 'medication' ? -1 : 1;
-    return b.entry.name.length - a.entry.name.length;
-  });
-
-  renderOcrResults(hits);
-}
-
-function renderOcrResults(hits) {
-  const container = document.getElementById('ocr-results');
-
-  if (hits.length === 0) {
-    container.innerHTML = '<div class="ocr-none">Keine Produkte auf dem Bild erkannt.<br>Versuche ein schärferes Foto des Produktnamens.</div>';
-    return;
-  }
-
-  const header = document.createElement('div');
-  header.className = 'ocr-results-header';
-  header.textContent = `${hits.length} Produkt${hits.length > 1 ? 'e' : ''} erkannt`;
-  container.appendChild(header);
-
-  hits.forEach(hit => {
-    const { type, entry } = hit;
-    const isOk = type === 'allowed' || entry.status === 'OK';
-    const statusText = type === 'medication' ? entry.status : 'Erlaubt';
-
-    let dotClass = 'dot-allowed';
-    if (type === 'medication') {
-      if (entry.status === 'OK') dotClass = 'dot-ok';
-      else if (entry.status === 'Nicht für Pessach') dotClass = 'dot-npe';
-      else dotClass = 'dot-nko';
-    }
-
-    const item = document.createElement('div');
-    item.className = 'ocr-result-item';
-    item.innerHTML = `
-      <div class="ocr-dot ${dotClass}"></div>
-      <div class="ocr-item-name">${escHtml(entry.name)}</div>
-      <div class="ocr-item-status">${escHtml(statusText)} · S.${entry.page}</div>
-    `;
-
-    item.addEventListener('click', () => {
-      showPdf(entry.page, entry.bbox);
-      // Scroll to PDF
-      document.getElementById('pdf-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Run search and show result + PDF
+        document.getElementById('tab-text').click(); // switch to search tab to show result
+        document.getElementById('search-input').value = word;
+        showResult(word);
+      });
+      container.appendChild(btn);
     });
+  }
 
-    container.appendChild(item);
-  });
+  panel.classList.add('visible');
 }
 </script>
 </body>
