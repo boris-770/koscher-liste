@@ -820,9 +820,10 @@ function renderWordButtons(words) {
   const seen = new Set();
   const unique = [];
   for (const w of words) {
-    const text = w.text.trim().replace(/[«»„""''‚'()[\]{}<>]/g, '');
-    if (text.length < 2) continue;
-    if (/^[\d.,;:!?%&@#^*+=|\\/_-]+$/.test(text)) continue; // skip pure punctuation/numbers
+    // Strip all special / punctuation characters, keep letters, digits, spaces
+    const text = w.text.trim().replace(/[^a-zA-ZäöüÄÖÜß0-9]/g, '').trim();
+    if (text.length <= 2) continue; // drop 1- and 2-letter strings
+    if (/^\d+$/.test(text)) continue; // skip pure numbers
     const key = text.toLowerCase();
     if (seen.has(key)) continue;
     seen.add(key);
