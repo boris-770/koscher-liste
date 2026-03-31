@@ -419,14 +419,14 @@
 <header>
   <div>
     <div class="logo">✡ Koscher Liste Pessach</div>
-    <div class="subtitle">Komitee Kosher Wien · kosherwien.com</div>
+    <div class="subtitle">Koscher Liste Pessach</div>
   </div>
 </header>
 
 <!-- Tabs -->
 <div class="tabs">
   <button class="tab-btn active" id="tab-text">Suchen</button>
-  <button class="tab-btn" id="tab-camera">Foto scannen</button>
+  <button class="tab-btn" id="tab-camera">Foto (experimental)</button>
 </div>
 
 <!-- ═══ TEXT SEARCH ═══ -->
@@ -816,24 +816,29 @@ function renderWordButtons(words) {
   const container  = document.getElementById('word-buttons');
   container.innerHTML = '';
 
-  // Deduplicate while preserving order
+  // Deduplicate, strip special chars, drop short/numeric words
   const seen = new Set();
-  const unique = [];
+  const candidates = [];
   for (const w of words) {
-    // Strip all special / punctuation characters, keep letters, digits, spaces
     const text = w.text.trim().replace(/[^a-zA-ZäöüÄÖÜß0-9]/g, '').trim();
-    if (text.length <= 2) continue; // drop 1- and 2-letter strings
-    if (/^\d+$/.test(text)) continue; // skip pure numbers
+    if (text.length <= 2) continue;
+    if (/^\d+$/.test(text)) continue;
     const key = text.toLowerCase();
     if (seen.has(key)) continue;
     seen.add(key);
-    unique.push(text);
+    candidates.push(text);
   }
 
-  if (unique.length === 0) {
-    container.innerHTML = '<div class="ocr-none">Keine Wörter erkannt. Bitte ein schärferes Bild versuchen.</div>';
+  // Keep only words found on the list, then take the 2 longest matches
+  const onList = candidates
+    .filter(word => searchProducts(word) !== null)
+    .sort((a, b) => b.length - a.length)
+    .slice(0, 2);
+
+  if (onList.length === 0) {
+    container.innerHTML = '<div class="ocr-none">Keine Produkte aus der Liste erkannt.<br>Bitte ein schärferes Foto des Produktnamens versuchen.</div>';
   } else {
-    unique.forEach(word => {
+    onList.forEach(word => {
       const btn = document.createElement('button');
       btn.className = 'word-btn';
       btn.textContent = word;
