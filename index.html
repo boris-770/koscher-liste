@@ -434,7 +434,10 @@
   <div class="search-section">
     <label class="search-label" for="search-input">Suchen</label>
     <div class="search-row autocomplete-wrapper">
-      <input type="text" id="search-input" placeholder="Produktname eingeben…" autocomplete="off">
+      <div style="position:relative;flex:1">
+        <input type="text" id="search-input" placeholder="Produktname eingeben…" autocomplete="off" style="width:100%;padding-right:32px">
+        <button id="clear-btn" title="Löschen" style="display:none;position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:none;color:#aaa;font-size:1.1rem;cursor:pointer;padding:0;line-height:1">✕</button>
+      </div>
       <button id="search-btn">Suchen</button>
       <div id="suggestions"></div>
     </div>
@@ -450,8 +453,8 @@
     <div class="upload-area" id="upload-area">
       <!-- On mobile: capture="environment" opens rear camera directly -->
       <input type="file" id="photo-input" accept="image/*" capture="environment">
-      <div class="upload-icon">📷</div>
-      <p><strong>Foto aufnehmen oder hochladen</strong><br>
+      <div class="upload-icon" id="upload-icon">📷</div>
+      <p id="upload-label"><strong>Foto aufnehmen oder hochladen</strong><br>
         Tippe hier, um die Kamera zu öffnen oder ein Bild auszuwählen</p>
     </div>
 
@@ -726,6 +729,7 @@ document.getElementById('search-input').addEventListener('input', () => {
     div.innerHTML = escHtml(m.name) + ' ' + hint;
     div.addEventListener('mousedown', () => {
       document.getElementById('search-input').value = m.name;
+      updateClearBtn();
       sugDiv.innerHTML = '';
       showResult(m.name);
     });
@@ -736,6 +740,25 @@ document.getElementById('search-input').addEventListener('input', () => {
 document.addEventListener('click', e => {
   if (!e.target.closest('.autocomplete-wrapper'))
     document.getElementById('suggestions').innerHTML = '';
+});
+
+// Clear-button (✕) in search field
+const clearBtn   = document.getElementById('clear-btn');
+const searchInp  = document.getElementById('search-input');
+
+function updateClearBtn() {
+  clearBtn.style.display = searchInp.value.length > 0 ? 'block' : 'none';
+}
+
+searchInp.addEventListener('input', updateClearBtn);
+
+clearBtn.addEventListener('click', () => {
+  searchInp.value = '';
+  clearBtn.style.display = 'none';
+  document.getElementById('suggestions').innerHTML = '';
+  document.getElementById('result').innerHTML = '';
+  document.getElementById('pdf-section').style.display = 'none';
+  searchInp.focus();
 });
 
 // ─── OCR / Camera ─────────────────────────────────────────────────────────────
@@ -758,6 +781,10 @@ photoInput.addEventListener('change', () => {
 });
 
 async function processImage(file) {
+  // Update upload area label to "Neues Foto"
+  document.getElementById('upload-icon').textContent = '🔄';
+  document.getElementById('upload-label').innerHTML = '<strong>Neues Foto aufnehmen</strong><br>Tippe hier für ein neues Bild';
+
   // Show image immediately
   const previewImg = document.getElementById('img-preview');
   previewImg.src = URL.createObjectURL(file);
@@ -850,6 +877,7 @@ function renderWordButtons(words) {
         // Run search and show result + PDF
         document.getElementById('tab-text').click(); // switch to search tab to show result
         document.getElementById('search-input').value = word;
+        updateClearBtn();
         showResult(word);
       });
       container.appendChild(btn);
