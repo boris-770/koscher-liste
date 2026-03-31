@@ -1,0 +1,5586 @@
+{
+  "pageWidth": 419.52,
+  "pageHeight": 595.32,
+  "medications": [
+    {
+      "name": "Abführtee Hegathek",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 278.33104000000003,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Abführtee St. Severin",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Acetylcystein Hexal 100 mg - lösbare Tabletten",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Acetylcystein Hexal Granulate Und Brausetabletten",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Aciclostad Fieberblasencreme",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "ADOLORIN Ibuforte DIREKT 400 mg Suspension",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Adolorin Ibuforte Express Filmtabl. 400 Mg",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "ADOLORINI DIREKT 200 mg Suspension zum Einnehmen",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Aerius 0,5 mg/ml Lösung zum Einnehmen",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Aerius Filmtabletten",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Aeromuc Brausetabletten 600mg",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Agiolax Granulat",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Algesal 10 %/1 % - Creme",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Allergo-Comod Augentropfen",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Allergodil - Nasenspray",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Allergospray Nasenspray",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Ambrobene 15 mg - Ampullen",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Ambrobene Saft",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 237.17000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Ambroxol 1A Pharma 7,5 mg/ml - Lösung",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 219.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Ambroxol Genericon Lösliche Tabletten 60 Mg",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 202.73000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Ambroxol Genericon Tabletten 30 Mg",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 185.42000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Antibiophilus - Hartkapseln",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 168.14,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Antibiophilus Beutel",
+      "status": "OK",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 150.86,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Antiflat - Kautabletten",
+      "status": "Nicht Koscher",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 133.70000000000005,
+        "w": 327.91104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Antiflat Tropfen",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 116.42000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Aspirin + C Brausetabletten",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 99.13999999999999,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Aspirin + C Forte Brausetabletten 800/480 Mg",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 81.86400000000003,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Aspirin Akut Brausetabletten",
+      "status": "Nicht für Pessach",
+      "page": 5,
+      "bbox": {
+        "x": 47.544,
+        "y": 64.67999999999995,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Aspirin Direkt granulat",
+      "status": "Nicht für Pessach",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 340.75104000000005,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Aspirin Express Tabletten",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Aspirin Kautabletten",
+      "status": "Nicht für Pessach",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Aspro Classic 320 mg ASS - Tabletten",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Augmentin 400 mg/57 mg/5 ml Pulver",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Augmentin Filmtabletten",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Azelastin COMOD 0,5 mg/ml Augentropfen, Lösung",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Azelastin POS Nasenspray",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Azithromycin +pharma 500 mg Filmtabletten",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Ben-U-Ron Saft",
+      "status": "Nicht für Pessach",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Ben-U-Ron Zäpfchen",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Bepanthen - Creme",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Bepanthen Wund- Und Heilsalbe",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Betadona Flüssigseife",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Betadona Wund-Gel",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Betaisodona Gel",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Betaisodona Lösung",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Bioflair Kapseln",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 237.17000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "BIOGELAT Knoblauch-Mistel-Weißdorn Kapseln",
+      "status": "Nicht für Pessach",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 219.89,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Biogelat Magnesium Filmtabletten",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 202.73000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Boswellia Loges Weihrauch Kapseln",
+      "status": "Nicht für Pessach",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 185.42000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Boxagrippal Filmtabletten 200/30 Mg",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 168.14,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Boxagrippal Forte Filmtabletten 400/60 Mg",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 150.86,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Bronchipret Duo Hustenlöser Lösung zum Einnehmen",
+      "status": "Nicht für Pessach",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 133.70000000000005,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Bronchipret Filmtabletten",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 116.42000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Bronchipret Lösung",
+      "status": "Nicht Koscher",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 99.13999999999999,
+        "w": 327.91104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Bronchipret Saft",
+      "status": "Nicht für Pessach",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 81.86400000000003,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "BRONCHOSTOP Bronchitis akut Tropfen, Lösung",
+      "status": "OK",
+      "page": 6,
+      "bbox": {
+        "x": 47.544,
+        "y": 64.67999999999995,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Bronchostop Hals- Und Rachenspray",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Bronchostop Kinderhustensaft",
+      "status": "Nicht für Pessach",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Bronchostop Sine Saft",
+      "status": "Nicht für Pessach",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Brufen 400 mg - Filmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Buscopan Dragees",
+      "status": "Nicht Koscher",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 327.19104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Buscopan Plus Paracetamol Filtmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Buscopan Zäpfchen 10 Mg",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Carbo Tabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Ceclor 125 mg/5ml - Granulat für orale Suspension",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Ceclor Filmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Ceolat 1 mg/ml-Lösung zum Einnehmen",
+      "status": "Nicht für Pessach",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Cetirizin Actavis 10 mg Filmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Cetirizin Genericon Filmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Cetirizin Ratiopharm Filmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Cetirizin Sandoz Filmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Chlorhexamed Gel 1 %",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Cimetidin Genericon Filmtabletten",
+      "status": "Nicht für Pessach",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Ciprofloxacin ratiopharm 250 mg - Filmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 237.17000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Clarinase 5 mg/ 120 mg Retardtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 219.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Clarithromycin 1A Pharma 250/500 mg - Filmtabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 202.73000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Clarityn 10 mg - Tabletten",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 185.42000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Coldamaris Akut Nasenspray",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 168.14,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Coldamaris Plus Nasenspray",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 150.86,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Coldamaris Rachenspray",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 133.70000000000005,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Coldan Nasentropfen",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 116.42000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Coldistan Augentropfen",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 99.13999999999999,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Coldophthal Augentropfen",
+      "status": "OK",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 81.86400000000003,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Combantrin Kautabletten",
+      "status": "Nicht Koscher",
+      "page": 7,
+      "bbox": {
+        "x": 47.544,
+        "y": 64.67999999999995,
+        "w": 327.91104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Combantrin Suspension",
+      "status": "Nicht Koscher",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 327.91104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Deflamat 100 mg - Suppositorien",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Desloratadin +pharma 5 mg Filmtabletten",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Desloratadin Filmtabletten Genericon",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Desloratadin Filmtabletten Sandoz",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Diarrhoesan Saft",
+      "status": "Nicht für Pessach",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Dibondrin Liquid",
+      "status": "Nicht für Pessach",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Diclofenac S.Med 50 mg - Filmtabletten",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Diclofenac S.Med Retard Tbl 75 Mg Und 100 Mg",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Diclofenac Sandoz Filmtabl. 50 Mg",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Diclofenac Sandoz Rapid Lösliche Tabl.",
+      "status": "Nicht für Pessach",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Diclofenac Sandoz Retard Filmtabl. 100 Mg",
+      "status": "Nicht für Pessach",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Diclofenac Sandoz Retard Tabl. 75 Mg",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Dioscomb 1000 mg Filmtabletten",
+      "status": "Nicht Koscher",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 327.19104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Dismenol Ibuprofen 200/400 mg Filmtabletten",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Dolomo Tabletten",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Dulcolax - Dragees",
+      "status": "Nicht Koscher",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 327.19104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Dulcolax Zäpfchen",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 237.17000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Dulcosoft Flüssig",
+      "status": "Nicht Koscher",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 219.89,
+        "w": 327.19104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Easyangin Spray",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 202.73000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "easybronchial STOP FORTE 3 mg/ml Sirup",
+      "status": "Nicht für Pessach",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 185.42000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Easybronchial Stop Junior",
+      "status": "Nicht für Pessach",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 168.14,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Enterobene Filmtabletten",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 150.86,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Eucarbon Tabletten",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 133.70000000000005,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Euceta Gel",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 116.42000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Famotidin Genericon Filmtabletten 20 Mg & 40 Mg",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 99.13999999999999,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Famotidin Interpharm Filmtabletten 40 Mg",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 81.86400000000003,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Famotidin Stada Filmtabletten 20 Mg & 40 Mg",
+      "status": "OK",
+      "page": 8,
+      "bbox": {
+        "x": 47.544,
+        "y": 64.67999999999995,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Fenistil Gel",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Fenistil Tropfen",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Fenivir - Fieberblasencreme 10mg/g Creme",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Fentrinol Nasentropfen",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Ferrograd-Fol Filmtabletten",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Folsan 5 Mg & 0,4 Mg",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Gastroloc Hexal 20 mg - magensaftresistente Tabletten",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "GAVISCON DUAL Mintgeschmack Kautabletten",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "GeloMyrtol 120 mg - Kapseln",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "GUM Periobalance Lutschtabletten",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Guttalax Tropfen",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Hädensa Pflegesalbe",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Hädensa Zäpfchen",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Halset Lutschtabletten",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Hylo-Comod Augentropfen",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Iberogast Balance Tropfen",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Iberogast Classic Tropfen",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Ibumetin Express 400 mg Weichkapseln",
+      "status": "Nicht Koscher",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 237.17000000000002,
+        "w": 327.91104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Ibumetin Filmtabletten Forte 400mg",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 219.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Ibuprofen Actavis Filmtabletten",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 202.73000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Imodium Kapseln",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 185.42000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Imodium Schmelztabletten",
+      "status": "Nicht Koscher",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 168.14,
+        "w": 327.91104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Influbene Erkältungsgetränk Pulver",
+      "status": "Nicht Koscher",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 150.86,
+        "w": 327.19104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Insecticum Gel",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 133.70000000000005,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Klacid Flüssig Und Filmtabletten",
+      "status": "Nicht für Pessach",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 116.42000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Labisan Fieberblasensalbe",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 99.13999999999999,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Laevolac - Orale Lösung",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 81.86400000000003,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Laevolac 10 g Pulver",
+      "status": "OK",
+      "page": 9,
+      "bbox": {
+        "x": 47.544,
+        "y": 64.67999999999995,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Lecicarbon Zäpfchen",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Levocetirizin +pharma 5 mg Filmtabletten",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Levocetirizin Filmtabletten Genericon",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Levocetirizin Filmtabletten Hexal",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Levocetirizin Filmtabletten Stada",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Lomusol - Nasenspray",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Loperamid Grindeks 2 mg Hartkapseln",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Loperamid Ratiopharm Akut Filmtabletten",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Lösferron forte - Brausetabletten",
+      "status": "Nicht für Pessach",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Magnonorm Genericon 365 mg lösliche Tabletten",
+      "status": "Nicht für Pessach",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Magnosolv Granulat",
+      "status": "Nicht für Pessach",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Mar Plus Nasenspray",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Mefenam 500 mg - Filmtabletten",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Mexalen Tabletten Und Zäpfchen",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Mexaratio Syrup",
+      "status": "Nicht Koscher",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 327.91104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Mexaratio Zäpfchen (Vormals Mexalen)",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Mexavit Brausetabletten",
+      "status": "Nicht für Pessach",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Microlax - Microklistier",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 237.17000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Midro Tee",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 219.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Molaxole - Pulver Lösung zum Einnehmen",
+      "status": "Nicht für Pessach",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 202.73000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Motrim 100 mg - Tabletten",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 185.42000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "MOVICOL Aroma Frei",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 168.14,
+        "w": 275.69104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "MOVICOL Pulver mit aroma",
+      "status": "Nicht für Pessach",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 150.86,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Mucosolvan 1x täglich 75 mg - Retardkapseln",
+      "status": "Nicht Koscher",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 104.53999999999996,
+        "w": 327.19104000000004,
+        "h": 11.880000000000052
+      }
+    },
+    {
+      "name": "Mucospas Tabletten",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 87.26400000000001,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Nasivin Nasentropfen (Erw. 0,05 % + Kind 0,025 %)",
+      "status": "OK",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 70.08000000000004,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Nasivin Sanft (Erw. 0,05 % + Kind 0,025 %)",
+      "status": "Nicht für Pessach",
+      "page": 10,
+      "bbox": {
+        "x": 47.544,
+        "y": 52.799999999999955,
+        "w": 342.07104000000004,
+        "h": 11.760000000000105
+      }
+    },
+    {
+      "name": "Nasivin Spray (Nicht „Sanft“) (Erw. 0,05 %)",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Nasivin Tropfen 0,025 % (Kind)",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Neda Früchtewürfel",
+      "status": "Nicht für Pessach",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Neo Emedyl Dragee",
+      "status": "Nicht Koscher",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 327.19104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Normolyt Für Kinder",
+      "status": "Nicht für Pessach",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "NovAkut 1000 mg Filmtabletten",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Novalgin Filmtabletten",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Novalgin Tropfen",
+      "status": "Nicht für Pessach",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Nureflex Saft Alle",
+      "status": "Nicht für Pessach",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Nureflex Zäpfchen für Kinder",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "NUROFEN RAPID MINI 400 mg Weichkapseln",
+      "status": "Nicht für Pessach",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Oleovit D3 Tropfen",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 311.59000000000003,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Oleovital Augensalbe",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 294.29,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Ophtaguttal Agepha - Augentropfen",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 277.13,
+        "w": 275.69104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Ospen 1,0 – Filmtabletten",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 259.85,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Ospen Flüssig",
+      "status": "Nicht für Pessach",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 242.57000000000005,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Otodolor - Ohrentropfen",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 225.29000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Otrivin 0,05 % - Nasenspray ohne Konservierungsmittel",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 208.13,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Otrivin Nasenspray Duo",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 190.82000000000005,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Otrivin Nasentropfen",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 173.54000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Pantip 20 mg - magensaftresistente Tabletten",
+      "status": "Nicht für Pessach",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 156.26,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Pantoloc",
+      "status": "Nicht Koscher",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 139.10000000000002,
+        "w": 327.91104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Paracodin Tabletten",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 92.66399999999999,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Paracodin Tropfen",
+      "status": "Nicht für Pessach",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 75.36000000000001,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Parkemed Filmtabletten",
+      "status": "OK",
+      "page": 11,
+      "bbox": {
+        "x": 47.544,
+        "y": 58.200000000000045,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Parkemed Zäpfchen",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Paspertin Filmtabletten",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Prosicca Augentropfen",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 275.69104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Prospan - Hustensaft",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Pyralvex pur - Lösung",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Ratioallerg Filmtabletten",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "ratioDolor Akut Ibuprofen 300 mg Schmerztabletten",
+      "status": "Nicht Koscher",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 327.91104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "ratioSoft 0,05 % - Nasenspray",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 275.69104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Rennie Antacidum Orange - Lutschtabletten",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Rheumon - Depot - Ampullen",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Rheumon Gel",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Rhinon Nasentropfen",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Rhinoperd Nasentropfen",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Riopan 1600 mg - MagenGel",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Riopan Kautabletten 800 Mg",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Roxithrostad Filmabletten",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "SAB Simplex Tropfen",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Salbeitee",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 237.17000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Sennesblätter",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 219.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Seractil 200 mg - Filmtabletten",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 202.73000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Seractil Akut Pulver",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 185.42000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Sinupret Dragee",
+      "status": "Nicht Koscher",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 168.14,
+        "w": 327.19104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Sinupret Forte Dragee",
+      "status": "Nicht Koscher",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 150.86,
+        "w": 327.19104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Sinupret Intens Tabletten",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 133.70000000000005,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Sinupret Saft",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 116.42000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Sinupret Tropfen",
+      "status": "Nicht für Pessach",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 99.13999999999999,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Soventol Bamipinlactat Gel",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 81.86400000000003,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Sperti Preparation H Hämorrhoidalsalbe",
+      "status": "OK",
+      "page": 12,
+      "bbox": {
+        "x": 47.544,
+        "y": 64.67999999999995,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Sperti Zäpfchen",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Strepsils 8,75 mg Lutschtabletten",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Strepsils Lutschtabletten (Mit Und Ohne Zucker)",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Sucralan - Orale Suspension",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Sucralfat Orale Suspension",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Sucralfat Tabletten",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Supradyn Active Brausetabletten",
+      "status": "Nicht Koscher",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 327.19104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Supradyn Active Filmtabletten",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Supradyn Forte Brausetabletten",
+      "status": "Nicht Koscher",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 327.19104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Supradyn Forte Filmtabletten",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Supradyn Immun Brausetabletten",
+      "status": "Nicht Koscher",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 327.19104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Supradyn Vital 50+ Brausetabletten",
+      "status": "Nicht Koscher",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 327.19104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Supradyn Vital 50+ Filmtabletten",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 342.07104000000004,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Talcid Kautabletten",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 342.07104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Tannalbin Tabletten",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Tannosynt - Lotio",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Tannosynt Badezusatz Und Lotion",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Tardyferon 80 Mg Retardtabletten",
+      "status": "Nicht Koscher",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 208.13,
+        "w": 327.91104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Tardyferon Fol Retardtabletten",
+      "status": "Nicht Koscher",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 190.82000000000005,
+        "w": 327.91104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Tavipec Kapseln",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 173.54000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "ThomaDuo 400 mg/100 mg Filmtabletten",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 156.26,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Thomapyrin Tabletten",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 139.10000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Tussastop Lösung",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 121.82,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Tyrothricin Lutschtabletten",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 104.53999999999996,
+        "w": 342.07104000000004,
+        "h": 11.880000000000052
+      }
+    },
+    {
+      "name": "Venoruton - Gel",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 87.26400000000001,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Venoruton Pulver",
+      "status": "Nicht für Pessach",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 70.08000000000004,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Venoruton Tabletten 500mg",
+      "status": "OK",
+      "page": 13,
+      "bbox": {
+        "x": 47.544,
+        "y": 52.799999999999955,
+        "w": 277.85104,
+        "h": 11.760000000000105
+      }
+    },
+    {
+      "name": "Vibrocil Nasenspray Und Nasentropfen",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 530.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Vitawund 5,25 mg/g - Salbe",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 513.22,
+        "w": 275.69104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Vivimed 333mg/50mg - Tabletten",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 495.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Voltadol 24 Stunden Schmerzpflaster 140 mg",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 478.78000000000003,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Voltaren 100 mg - Zäpfchen für Erwachsene",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 461.5,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Voltaren Filmtabletten 50 Mg",
+      "status": "Nicht Koscher",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 444.22,
+        "w": 327.19104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Voltaren Gel",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 426.94,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Voltaren Zäpfchen",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 409.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Wasserstoffperoxid 3%-Lösung",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 392.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "WICK 200 mg/15 ml Hustenlöser-Sirup",
+      "status": "Nicht für Pessach",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 375.19,
+        "w": 342.07104000000004,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Wick Formel 44 Hustenstiller Saft",
+      "status": "Nicht Koscher",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 357.91,
+        "w": 327.19104000000004,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Wick Vaporup Salbe",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 340.75,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Wick Inhalierstift",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 323.47,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "Xiclav Säfte",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 306.17,
+        "w": 277.85104,
+        "h": 11.879999999999939
+      }
+    },
+    {
+      "name": "Xiclav 1 g - Filmtabletten",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 288.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Xyzall Filmtabletten",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 271.73,
+        "w": 277.85104,
+        "h": 11.759999999999934
+      }
+    },
+    {
+      "name": "ZADITEN Augentropfen Alle",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 254.45,
+        "w": 275.69104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Zithromax 200 mg/5 ml - Trockensaft",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 237.17000000000002,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Zithromax Filmtabletten",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 219.89,
+        "w": 277.85104,
+        "h": 11.879999999999995
+      }
+    },
+    {
+      "name": "Zyrtec 1 mg/ml - orale Lösung",
+      "status": "Nicht für Pessach",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 202.73000000000002,
+        "w": 342.07104000000004,
+        "h": 11.759999999999991
+      }
+    },
+    {
+      "name": "Zyrtec Filmtabletten",
+      "status": "OK",
+      "page": 14,
+      "bbox": {
+        "x": 47.544,
+        "y": 185.42000000000002,
+        "w": 277.85104,
+        "h": 11.759999999999991
+      }
+    }
+  ],
+  "allowed": [
+    {
+      "name": "Weißweine",
+      "page": 15,
+      "bbox": {
+        "x": 36.84,
+        "y": 498.46000000000004,
+        "w": 54.71903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Welschriesling",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 479.71648,
+        "w": 64.226,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Grüner Veltliner",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 465.43647999999996,
+        "w": 73.58599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Chardonnay (Prestige/Classic)",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 451.15648,
+        "w": 132.386,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Muscat Blanc",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 436.99647999999996,
+        "w": 60.26599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Gelber Muskateller/ Yellow Muscat (OTTO)",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 422.68647999999996,
+        "w": 195.76599999999996,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Gemischter Satz",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 408.52648,
+        "w": 72.86599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Muscat Ottonel (OTTO)",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 394.24647999999996,
+        "w": 109.58599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Sauvignon Blanc",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 379.96648,
+        "w": 74.066,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Pinot Blanc",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 365.80647999999997,
+        "w": 52.556,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Pinot Cuvee",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 351.52648,
+        "w": 55.346000000000004,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Pinot Gris",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 337.36647999999997,
+        "w": 47.27600000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Riesling (Château Royal)",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 323.08648,
+        "w": 107.066,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Furmint (Prestige)",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 308.90648,
+        "w": 80.666,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Spätlese/Late Harvest Chardonnay",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 294.62647999999996,
+        "w": 152.206,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Spätlese/Late Harvest Pinot Gris",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 280.34648,
+        "w": 144.646,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Spätlese Muscat Ottonel (OTTO)",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 266.18647999999996,
+        "w": 146.566,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Spätlese Cuvée",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 251.90648,
+        "w": 66.506,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Spätlese Neusiedlersee DAC",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 237.74648000000002,
+        "w": 124.46599999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Beerenauslese Scheurebe 2010, 2018",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 223.46648000000005,
+        "w": 157.96599999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Beerenauslese Chardonnay 2018",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 209.18648000000002,
+        "w": 140.446,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Beerenauslese Muscat Ottonel 2014",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 194.99648000000002,
+        "w": 155.206,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Beerenauslese Furmint 2019",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 180.71648000000005,
+        "w": 123.386,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Trockenbeerenauslese Scheurebe (Essencia) 2000, 05, 06, 11, 15, 2017",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 166.55648000000002,
+        "w": 300.936,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Trockenbeerenauslese Chardonnay (Barrique) 1999 (non mevushal)",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 152.27648,
+        "w": 295.27598,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Trockenbeerenauslese Chardonnay 2022",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 123.83648,
+        "w": 175.24599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Trockenbeerenauslese Welschriesling (Essencia) 2002",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 109.55647999999997,
+        "w": 230.716,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Trockenbeerenauslese Furmint 2021",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 95.40048000000002,
+        "w": 158.206,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Eiswein Chardonnay 2000, 2009",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 81.09648000000004,
+        "w": 140.68599999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Eiswein Grüner Veltliner 2000, 2002",
+      "page": 15,
+      "bbox": {
+        "x": 69.024,
+        "y": 66.81647999999996,
+        "w": 159.40599999999998,
+        "h": 11.040000000000077
+      }
+    },
+    {
+      "name": "Eiswein Furmint 2020, 2023",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 531.4364800000001,
+        "w": 123.506,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Eiswein Muskat Ottonel 2010, 2018",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 517.15648,
+        "w": 156.046,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Eiswein Gewürztraminer 2010",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 502.99647999999996,
+        "w": 133.106,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Eiswein Welschriesling 2010",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 488.71648,
+        "w": 124.106,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Eiswein Scheurebe 2012",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 474.55647999999997,
+        "w": 106.58599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Sparkling",
+      "page": 16,
+      "bbox": {
+        "x": 36.84,
+        "y": 439.42,
+        "w": 44.75904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "PetNat Rose (Chât Grand)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 420.64648,
+        "w": 116.666,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Frizzante Riesling, Welschriesling",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 406.36647999999997,
+        "w": 145.24599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Frizzante Muscat (OTTO)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 392.08648,
+        "w": 115.946,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Frizzante Rose (Shiraz, Pinot Noir)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 377.92647999999997,
+        "w": 152.926,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Sparkling Welschriesling",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 363.64648,
+        "w": 106.70599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Sparkling Grüner Veltliner",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 349.48648,
+        "w": 116.066,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Sparkling Chardonnay (sweet)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 335.20648,
+        "w": 130.226,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Sparkling Muscat, Muscat Ottonel (OTTO)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 320.92647999999997,
+        "w": 188.086,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Rot Weine",
+      "page": 16,
+      "bbox": {
+        "x": 36.84,
+        "y": 300.05,
+        "w": 50.519040000000004,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Zweigelt (Classic/Prestige/Reserve)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 281.30647999999997,
+        "w": 156.166,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Blaufränkisch (Classic/Prestige/Reserve)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 267.02648,
+        "w": 177.646,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Blaufränkisch 2018 (non mevushal)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 252.86648000000002,
+        "w": 153.52599999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Pinot Noir (Classic, Reserve, Barrique)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 238.58648000000005,
+        "w": 167.446,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Shiraz (Classic)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 224.42648000000003,
+        "w": 67.346,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Syrah (Prestige, Reserve)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 210.14648,
+        "w": 107.90599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Merlot",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 195.83648000000005,
+        "w": 31.560000000000002,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Cabernet Sauvignon",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 181.67648000000003,
+        "w": 88.826,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Cabernet Sauvignon (Reserve)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 167.39648,
+        "w": 131.426,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Neusiedlersee DAC",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 153.23648000000003,
+        "w": 87.506,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Neusiedlersee DAC Reserve",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 138.95648000000006,
+        "w": 123.62599999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "St. Laurent (Classic, Reserve)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 124.67647999999997,
+        "w": 126.506,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Velvet",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 110.51648,
+        "w": 30.24000000000001,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Kiddush (extra-light, semi-sweet, sweet)",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 96.24047999999999,
+        "w": 172.726,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Batsheva",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 82.08047999999997,
+        "w": 41.036,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Queen of Sheba",
+      "page": 16,
+      "bbox": {
+        "x": 69.024,
+        "y": 67.77647999999999,
+        "w": 71.666,
+        "h": 11.040000000000077
+      }
+    },
+    {
+      "name": "Late Harvest Cuvée (OTTO)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 531.4364800000001,
+        "w": 126.86599999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Late Harvest Pinot Noir (OTTO)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 517.15648,
+        "w": 146.326,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Beerenauslese Cuvée 2019",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 502.99647999999996,
+        "w": 114.98599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Trockenbeerenauslese Blaufränkisch 2017",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 488.71648,
+        "w": 181.486,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Eiswein Blaufränkisch 2017, 2023",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 474.55647999999997,
+        "w": 146.80599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "KUF Kiddush (non mevushal)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 460.27648,
+        "w": 133.346,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Kashmir",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 446.11647999999997,
+        "w": 39.71600000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Anakin",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 431.83648,
+        "w": 33.60000000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Rose Wein",
+      "page": 17,
+      "bbox": {
+        "x": 36.84,
+        "y": 410.83,
+        "w": 51.11904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Château Grand",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 392.08648,
+        "w": 67.946,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Merlot Rosé",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 377.92647999999997,
+        "w": 58.226,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Shoshana",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 363.64648,
+        "w": 43.43600000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Traubensaft",
+      "page": 17,
+      "bbox": {
+        "x": 36.84,
+        "y": 342.79,
+        "w": 57.71903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "White Grape Juice (Muscat Ottonel, Furmint-Muscat, Riesling-Muscat)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 324.04648,
+        "w": 305.13599999999997,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Red Grape Juice (Blaufränkisch, Zweigelt, Rösler, Pinot Noir, Rot",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 309.74647999999996,
+        "w": 283.7611199999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "unfiltriert)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 295.58648,
+        "w": 46.43600000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Red Grape Juice Rozim",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 281.30647999999997,
+        "w": 103.70599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Rose Grape Juice (Zweigelt)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 267.02648,
+        "w": 123.02599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Rose Grape Juice OTTO Muscat Bleu",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 252.86648000000002,
+        "w": 166.006,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Spirituosen",
+      "page": 17,
+      "bbox": {
+        "x": 36.84,
+        "y": 231.89,
+        "w": 56.87904,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Eiswein-Grappa",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 213.14648,
+        "w": 72.386,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "MusCAT Traubenbrand (OTTO)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 198.98648000000003,
+        "w": 146.206,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Brandy VSOP",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 184.67648000000003,
+        "w": 63.625999999999976,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Brandy XO (10, 12, 13, 15 Years)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 170.51648,
+        "w": 145.006,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Brandy XO (“Rodell”, “1826” (18 Years): not for Pessach)",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 156.23648000000003,
+        "w": 257.116,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Jelinek",
+      "page": 17,
+      "bbox": {
+        "x": 36.84,
+        "y": 125.06,
+        "w": 32.75904,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Silver Sliwowize mit OU P",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 112.31648000000001,
+        "w": 117.98599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Willims Birne mit OU P",
+      "page": 17,
+      "bbox": {
+        "x": 69.024,
+        "y": 98.15647999999999,
+        "w": 106.946,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "(a) Dusche & Shampoo",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 498.76912000000004,
+        "w": 117.29479999999998,
+        "h": 11.172480000000007
+      }
+    },
+    {
+      "name": "Alle Produkte ohne Getreideinhaltsstoffe sind erlaubt.",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 484.35568,
+        "w": 233.3932,
+        "h": 10.560000000000002
+      }
+    },
+    {
+      "name": "Folgende Produkte wurden von uns kontrolliert:",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 461.47648,
+        "w": 208.00599999999997,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Alverde Naturkosmetik",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 444.58,
+        "w": 105.38503999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Baby Waschlotion & Shampoo",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 431.83648,
+        "w": 137.326,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Bio-Calendula Kids Feste Dusche & Shampoo mit Erdbeerduft",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 417.52648,
+        "w": 272.476,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Babylove",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 400.63,
+        "w": 43.31904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Milde Seife sensitive",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 387.88648,
+        "w": 88.826,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "nature 2in1 feste Dusche & Shampoo",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 373.60648,
+        "w": 162.766,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Babywell",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 356.71000000000004,
+        "w": 42.95904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "NICHT Baby Shampoo",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 343.96648,
+        "w": 111.14599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Balea",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 327.07,
+        "w": 26.99904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "4in1 Dusche Bestie Time",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 314.32648,
+        "w": 109.70599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Dusche und Shampoo Ocean Princess",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 300.02648,
+        "w": 166.726,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Kids 4in1 Dusche Let's kick it!",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 285.86647999999997,
+        "w": 133.346,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Shampoo & Spülung Ocean Princess",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 271.58648,
+        "w": 160.24599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Waschschaum Underwater Friends",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 257.42647999999997,
+        "w": 151.36599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Hipp Babysanft",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 240.40999999999997,
+        "w": 69.95504,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Baby-Shampoo sensitiv",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 227.66647999999998,
+        "w": 102.74599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Familienbad Sensitiv",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 213.50648,
+        "w": 90.74599999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Waschgel Sensitiv Haut & Haar",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 199.22648000000004,
+        "w": 137.08599999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "NIVEA BABY",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 182.3,
+        "w": 56.279039999999995,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Extra Mildes Shampoo baby sensitive",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 169.55648000000002,
+        "w": 161.926,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Kopf bis Fuß Shampoo & Bath",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 155.39648,
+        "w": 137.326,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "PAEDIPROTECT",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 138.38,
+        "w": 70.31504,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "2in1 Shampoo & Waschlotion",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 125.63648,
+        "w": 134.566,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Pflegebad für Babys und Kinder Schaumseife",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 111.47647999999998,
+        "w": 192.166,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Penaten",
+      "page": 18,
+      "bbox": {
+        "x": 36.84,
+        "y": 94.584,
+        "w": 39.71903999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Baby Bad & Shampoo",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 81.84047999999996,
+        "w": 100.58599999999998,
+        "h": 11.040000000000077
+      }
+    },
+    {
+      "name": "Ultra Sensitive  Baby Seife",
+      "page": 18,
+      "bbox": {
+        "x": 69.024,
+        "y": 67.53647999999998,
+        "w": 112.106,
+        "h": 11.040000000000077
+      }
+    },
+    {
+      "name": "(b) Babyöl",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 531.04912,
+        "w": 55.4948,
+        "h": 11.17247999999995
+      }
+    },
+    {
+      "name": "Alle Produkte ohne Getreideinhaltsstoffe sind erlaubt.",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 516.75568,
+        "w": 233.3932,
+        "h": 10.56000000000006
+      }
+    },
+    {
+      "name": "Folgende Produkte wurden von uns kontrolliert:",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 493.75648,
+        "w": 208.00599999999997,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Hipp",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 476.86,
+        "w": 23.39904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Pflegeöl Sensitiv",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 464.11647999999997,
+        "w": 72.506,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Penaten",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 447.22,
+        "w": 39.71903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Intensiv Pflege Öl Mit Aloe Vera Extrakt",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 434.2,
+        "w": 177.41799999999998,
+        "h": 12.0
+      }
+    },
+    {
+      "name": "Sanft Öl",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 420.16648,
+        "w": 38.63600000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "(c) Baby Lotion / Crème",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 403.57912,
+        "w": 127.6148,
+        "h": 11.172480000000007
+      }
+    },
+    {
+      "name": "Alle Produkte ohne Getreideinhaltsstoffe sind erlaubt.",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 381.96568,
+        "w": 233.3932,
+        "h": 10.560000000000002
+      }
+    },
+    {
+      "name": "Folgende Produkte wurden von uns kontrolliert:",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 369.52648,
+        "w": 208.00599999999997,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Hipp",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 352.63,
+        "w": 23.39904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Milk Lotion",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 339.88648,
+        "w": 53.66600000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Penaten",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 322.99,
+        "w": 39.71903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Intensiv Lotion",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 310.22648,
+        "w": 68.666,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "(d) Baby Puder",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 293.51912000000004,
+        "w": 80.09479999999999,
+        "h": 11.172480000000007
+      }
+    },
+    {
+      "name": "Alle Produkte ohne Getreideinhaltsstoffe sind erlaubt.",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 272.02568,
+        "w": 233.3932,
+        "h": 10.560000000000002
+      }
+    },
+    {
+      "name": "Folgende Produkte wurden von uns kontrolliert:",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 259.58648,
+        "w": 209.20600000000002,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Babylove",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 242.69,
+        "w": 43.31904,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Puder",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 229.94648,
+        "w": 28.08,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Penaten",
+      "page": 19,
+      "bbox": {
+        "x": 36.84,
+        "y": 213.05,
+        "w": 39.71903999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Puder",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 200.30648000000002,
+        "w": 28.08,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Nur mit Hechscher!",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 147.59648000000004,
+        "w": 92.42599999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "a)  Aluminium",
+      "page": 19,
+      "bbox": {
+        "x": 90.864,
+        "y": 95.97288000000003,
+        "w": 71.93720000000002,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "koscher Le‘ Pessach",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 83.40048000000002,
+        "w": 88.106,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "b)  Papier (Alle Sorten)",
+      "page": 19,
+      "bbox": {
+        "x": 90.864,
+        "y": 69.90888000000007,
+        "w": 111.41720000000001,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "Nur Mit Hechscher!",
+      "page": 19,
+      "bbox": {
+        "x": 69.024,
+        "y": 57.33648000000005,
+        "w": 88.70599999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "c)  Plastik",
+      "page": 20,
+      "bbox": {
+        "x": 90.864,
+        "y": 532.36888,
+        "w": 54.297200000000004,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "Kosher Le‘ Pessach",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 519.6764800000001,
+        "w": 86.666,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "d)  Styropor",
+      "page": 20,
+      "bbox": {
+        "x": 90.864,
+        "y": 506.32888,
+        "w": 63.057199999999995,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "Kosher Le‘ Pessach",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 493.75648,
+        "w": 86.666,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Alle Produkte Puderfrei sind erlaubt.",
+      "page": 20,
+      "bbox": {
+        "x": 51.024,
+        "y": 441.31648,
+        "w": 161.68599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Da viele Zutaten in Babynahrung ein Chometz-Risiko darstellen, haben wir",
+      "page": 20,
+      "bbox": {
+        "x": 43.824,
+        "y": 389.71000000000004,
+        "w": 333.382,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "beschlossen, alle Babynahrung von der Liste zu streichen und arbeiten an",
+      "page": 20,
+      "bbox": {
+        "x": 44.064,
+        "y": 375.19,
+        "w": 329.56607999999994,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Alternativen.",
+      "page": 20,
+      "bbox": {
+        "x": 44.064,
+        "y": 360.67,
+        "w": 60.69104000000001,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Sobald wir neue Erkenntnisse haben, werden wir diese in einem Bulletin",
+      "page": 20,
+      "bbox": {
+        "x": 43.824,
+        "y": 338.23,
+        "w": 324.9844799999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "veröffentlichen.",
+      "page": 20,
+      "bbox": {
+        "x": 44.064,
+        "y": 323.71000000000004,
+        "w": 73.77104,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "a)  Brei",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 302.75888000000003,
+        "w": 39.74719999999999,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "Kartoffelmehl (nur mit Hechscher)",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 290.18647999999996,
+        "w": 154.726,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "b)  Soya Milch",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 274.79888,
+        "w": 69.2972,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "Alpro",
+      "page": 20,
+      "bbox": {
+        "x": 36.84,
+        "y": 259.61,
+        "w": 29.279039999999995,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "ohne Calcium und nur Natur",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 246.86648000000002,
+        "w": 135.166,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "c)  Fencheltee",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 230.15912000000003,
+        "w": 75.6548,
+        "h": 11.17247999999995
+      }
+    },
+    {
+      "name": "Fenchelgrün nur von der Apotheke. Die gesamte Bedarfsmenge sollte",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 217.70648000000006,
+        "w": 301.54616000000004,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "vor Pessach abgebrüht werden.",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 203.42648000000003,
+        "w": 135.766,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Mit Düften: NICHT koscher Le‘ Pessach",
+      "page": 20,
+      "bbox": {
+        "x": 43.224,
+        "y": 150.14,
+        "w": 177.26104,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Recycling: NICHT koscher Le‘ Pessach",
+      "page": 20,
+      "bbox": {
+        "x": 43.224,
+        "y": 127.69999999999999,
+        "w": 169.22104,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Folgende Produkte sind koscher Le‘ Pessach",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 105.83648,
+        "w": 192.286,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Hofer",
+      "page": 20,
+      "bbox": {
+        "x": 36.84,
+        "y": 88.94399999999996,
+        "w": 30.359039999999993,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Kokett",
+      "page": 20,
+      "bbox": {
+        "x": 69.024,
+        "y": 76.17647999999997,
+        "w": 35.396,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Billa",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 530.74,
+        "w": 21.35904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Immer Gut",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 517.99648,
+        "w": 51.71600000000001,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Clever (Billa, Bipa)",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 501.1,
+        "w": 82.67504,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Clever",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 488.35648,
+        "w": 28.766654399999993,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "BI HOME (Billa, Bipa)",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 471.46000000000004,
+        "w": 95.42504,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Bi Home",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 458.71648,
+        "w": 41.876000000000005,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Saugstark & Sicher Classic / Premium",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 429.07648,
+        "w": 168.046,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Lidl",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 412.15000000000003,
+        "w": 17.99904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Floralys",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 399.40648,
+        "w": 38.756,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Metro",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 382.39,
+        "w": 30.719039999999993,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Aro",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 369.64648,
+        "w": 22.200000000000003,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Penny",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 352.75,
+        "w": 32.75904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Allzweckrolle XXL",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 340.00648,
+        "w": 84.98599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Happy End",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 325.84648,
+        "w": 55.226,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Superstark",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 311.56648,
+        "w": 50.516000000000005,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Plenty",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 294.65000000000003,
+        "w": 29.15903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Alle Sorten",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 281.90648,
+        "w": 50.516000000000005,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Spar",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 265.01,
+        "w": 22.43904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Lovely",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 252.26648,
+        "w": 31.560000000000002,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "S Budget",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 237.98648000000003,
+        "w": 43.676,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Zewa",
+      "page": 21,
+      "bbox": {
+        "x": 36.84,
+        "y": 221.09000000000003,
+        "w": 25.07904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Alle Sorten",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 208.34648000000004,
+        "w": 50.516000000000005,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Bei Kopierpapier, Kuverts, etc. kann Chumetz als Stärke beigefügt sein.",
+      "page": 21,
+      "bbox": {
+        "x": 43.824,
+        "y": 155.06,
+        "w": 316.85104,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Mit Düften: NICHT koscher Le‘ Pessach",
+      "page": 21,
+      "bbox": {
+        "x": 51.024,
+        "y": 101.30000000000001,
+        "w": 177.26103999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Recycling: NICHT koscher Le‘ Pessach",
+      "page": 21,
+      "bbox": {
+        "x": 51.024,
+        "y": 78.72000000000003,
+        "w": 169.22104,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Folgende Produkte sind koscher Le‘ Pessach",
+      "page": 21,
+      "bbox": {
+        "x": 69.024,
+        "y": 56.97648000000004,
+        "w": 192.286,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Clever (Billa, Bipa)",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 530.74,
+        "w": 83.39504,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Alle Sorten",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 517.99648,
+        "w": 53.066,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Profissimo",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 488.35648,
+        "w": 51.476,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Duni",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 471.46000000000004,
+        "w": 23.39904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Alle Sorten",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 458.71648,
+        "w": 50.516000000000005,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Hofer",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 441.82,
+        "w": 27.839039999999997,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Kokett",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 429.07648,
+        "w": 35.156000000000006,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Lidl",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 412.15000000000003,
+        "w": 17.99904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Floralys",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 399.40648,
+        "w": 38.876000000000005,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Metro",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 382.39,
+        "w": 29.123099999999994,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Metro",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 369.64648,
+        "w": 31.799999999999997,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Aro",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 355.48648,
+        "w": 22.200000000000003,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Tork Universal",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 341.20648,
+        "w": 69.62599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Pap Star",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 324.31,
+        "w": 39.35903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Alle Sorten",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 311.56648,
+        "w": 50.516000000000005,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Penny",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 294.65000000000003,
+        "w": 28.79903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Home Ideas",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 281.90648,
+        "w": 57.74600000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Spar",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 265.01,
+        "w": 22.43904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Alle sorten",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 252.26648,
+        "w": 49.316,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Teddy",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 235.37,
+        "w": 29.879040000000003,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Teddy",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 222.62648000000002,
+        "w": 29.64,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Hermesetas",
+      "page": 22,
+      "bbox": {
+        "x": 36.84,
+        "y": 169.34000000000003,
+        "w": 55.919039999999995,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Nur original Hermesetas mini Tabl.",
+      "page": 22,
+      "bbox": {
+        "x": 72.864,
+        "y": 154.19648,
+        "w": 154.10103999999998,
+        "h": 11.183519999999987
+      }
+    },
+    {
+      "name": "Nur Mit Hechscher!",
+      "page": 22,
+      "bbox": {
+        "x": 69.024,
+        "y": 101.27647999999999,
+        "w": 90.26599999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Mit Düften: NICHT koscher Le‘ Pessach",
+      "page": 23,
+      "bbox": {
+        "x": 51.024,
+        "y": 498.46000000000004,
+        "w": 177.26103999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Recycling: NICHT koscher Le‘ Pessach",
+      "page": 23,
+      "bbox": {
+        "x": 51.024,
+        "y": 475.90000000000003,
+        "w": 169.22104,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "ACHTUNG! Alle Boxen werden aus Recycling Papier hergestellt!",
+      "page": 23,
+      "bbox": {
+        "x": 29.76,
+        "y": 453.76912000000004,
+        "w": 298.4488,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Folgende Produkte sind koscher Le‘ Pessach:",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 441.19648,
+        "w": 194.68599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "(a) Box",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 417.37888,
+        "w": 37.7072,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "BI HOME (Bipa)",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 402.07,
+        "w": 67.7591,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "BI HOME",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 389.32648,
+        "w": 51.69104,
+        "h": 11.183519999999987
+      }
+    },
+    {
+      "name": "Clever (Billa, Bipa)",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 372.43,
+        "w": 83.39504,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Taschentücher Box samtweich",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 359.68647999999996,
+        "w": 132.986,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Soft & Sicher Classic / extra gross / Box Design",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 330.04648,
+        "w": 210.046,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Hofer",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 313.15000000000003,
+        "w": 26.363099999999996,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Kokett",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 300.38648,
+        "w": 35.396,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Kleenex",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 283.49,
+        "w": 37.67904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Kleenex Original/ Ultrasoft /Collection",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 270.74647999999996,
+        "w": 173.80599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Lidl",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 253.85000000000002,
+        "w": 17.99904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Floralys",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 241.10648000000003,
+        "w": 38.99600000000001,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Penny",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 224.39911999999998,
+        "w": 34.25279999999999,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Happy End",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 211.94648,
+        "w": 52.43600000000001,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Softis",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 195.20911999999998,
+        "w": 28.612799999999993,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Softis Taschentücher Super-Soft",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 182.75648,
+        "w": 140.326,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Spar",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 165.86,
+        "w": 22.43904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Lovely",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 153.11648000000002,
+        "w": 33.956,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Tempo",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 136.22000000000003,
+        "w": 33.71903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Tempo Original / Natural / Soft",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 123.47647999999998,
+        "w": 142.486,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "(b) Nylon",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 108.08888000000002,
+        "w": 47.0672,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "Clever (Billa, Bipa)",
+      "page": 23,
+      "bbox": {
+        "x": 36.84,
+        "y": 92.78399999999999,
+        "w": 83.39504,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Clever Taschentücher",
+      "page": 23,
+      "bbox": {
+        "x": 69.024,
+        "y": 80.01648,
+        "w": 98.18599999999998,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Soft & Sicher Classic",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 517.99648,
+        "w": 94.826,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Hofer",
+      "page": 24,
+      "bbox": {
+        "x": 36.84,
+        "y": 501.1,
+        "w": 27.839039999999997,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Kokett",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 488.35648,
+        "w": 35.396,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Lidl",
+      "page": 24,
+      "bbox": {
+        "x": 36.84,
+        "y": 471.46000000000004,
+        "w": 17.99904,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Floralys Soft",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 458.71648,
+        "w": 59.30599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Penny",
+      "page": 24,
+      "bbox": {
+        "x": 36.84,
+        "y": 441.82,
+        "w": 30.239040000000003,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Penny 3 Lagen",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 429.07648,
+        "w": 65.666,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Spar",
+      "page": 24,
+      "bbox": {
+        "x": 36.84,
+        "y": 412.33912000000004,
+        "w": 23.9328,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "S. Budget",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 399.88648,
+        "w": 43.556,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Softis",
+      "page": 24,
+      "bbox": {
+        "x": 36.84,
+        "y": 382.99,
+        "w": 27.239040000000003,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Softis Taschentücher super-soft",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 370.24647999999996,
+        "w": 137.80599999999998,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Tempo",
+      "page": 24,
+      "bbox": {
+        "x": 36.84,
+        "y": 353.35,
+        "w": 33.71903999999999,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Original /  Natural & Soft",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 340.60648,
+        "w": 114.386,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "(c) Kosmetik Tücher Box",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 325.21888,
+        "w": 119.09720000000002,
+        "h": 10.079520000000002
+      }
+    },
+    {
+      "name": "Ebelin",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 297.74647999999996,
+        "w": 30.840000000000003,
+        "h": 11.04000000000002
+      }
+    },
+    {
+      "name": "Hofer",
+      "page": 24,
+      "bbox": {
+        "x": 36.84,
+        "y": 281.03912,
+        "w": 29.092799999999997,
+        "h": 11.039999999999964
+      }
+    },
+    {
+      "name": "Lacura Skin",
+      "page": 24,
+      "bbox": {
+        "x": 69.024,
+        "y": 268.58648,
+        "w": 52.91600000000001,
+        "h": 11.04000000000002
+      }
+    }
+  ]
+}

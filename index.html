@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koscher Liste Pessach</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f7f5f0;
+      color: #2c2c2c;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #1a3a5c;
+      color: #fff;
+      padding: 20px 24px 18px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+
+    header .logo {
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    header .subtitle {
+      font-size: 0.85rem;
+      opacity: 0.75;
+      margin-top: 2px;
+    }
+
+    .search-section {
+      max-width: 700px;
+      margin: 36px auto 0;
+      padding: 0 16px;
+    }
+
+    .search-label {
+      display: block;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1a3a5c;
+      margin-bottom: 8px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    .search-row input {
+      flex: 1;
+      padding: 12px 16px;
+      font-size: 1rem;
+      border: 2px solid #c8c0a8;
+      border-radius: 8px;
+      outline: none;
+      background: #fff;
+      transition: border-color 0.2s;
+    }
+
+    .search-row input:focus {
+      border-color: #1a3a5c;
+    }
+
+    .search-row button {
+      padding: 12px 22px;
+      background: #1a3a5c;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .search-row button:hover {
+      background: #254d78;
+    }
+
+    /* Result badge */
+    #result {
+      max-width: 700px;
+      margin: 20px auto 0;
+      padding: 0 16px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 22px;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      width: 100%;
+    }
+
+    .badge-found {
+      background: #e6f4ea;
+      color: #1b6b35;
+      border: 2px solid #7ec89a;
+    }
+
+    .badge-not-found {
+      background: #fdecea;
+      color: #b71c1c;
+      border: 2px solid #e57373;
+    }
+
+    .badge-icon {
+      font-size: 1.4rem;
+    }
+
+    .badge-sub {
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: inherit;
+      opacity: 0.8;
+      margin-top: 2px;
+    }
+
+    .status-tag {
+      display: inline-block;
+      margin-left: 12px;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      vertical-align: middle;
+    }
+
+    .status-ok { background: #d4edda; color: #1b6b35; }
+    .status-npe { background: #fff3cd; color: #856404; }
+    .status-nko { background: #f8d7da; color: #721c24; }
+
+    /* Suggestions dropdown */
+    .autocomplete-wrapper {
+      position: relative;
+    }
+
+    #suggestions {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border: 1px solid #c8c0a8;
+      border-top: none;
+      border-radius: 0 0 8px 8px;
+      max-height: 220px;
+      overflow-y: auto;
+      z-index: 100;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    #suggestions div {
+      padding: 10px 16px;
+      cursor: pointer;
+      font-size: 0.92rem;
+      border-bottom: 1px solid #f0ebe0;
+    }
+
+    #suggestions div:last-child { border-bottom: none; }
+    #suggestions div:hover { background: #f0f7ff; }
+
+    #suggestions .sug-status {
+      font-size: 0.78rem;
+      color: #888;
+      margin-left: 6px;
+    }
+
+    /* PDF viewer */
+    #pdf-section {
+      max-width: 900px;
+      margin: 28px auto 48px;
+      padding: 0 16px;
+    }
+
+    .pdf-header {
+      font-size: 0.92rem;
+      color: #555;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pdf-header strong { color: #1a3a5c; }
+
+    #pdf-canvas-wrap {
+      position: relative;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+      background: #fff;
+      width: 100%;
+    }
+
+    #pdf-canvas {
+      display: block;
+      width: 100%;
+    }
+
+    #highlight-overlay {
+      position: absolute;
+      pointer-events: none;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+    }
+
+    .pdf-nav {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .pdf-nav button {
+      padding: 7px 16px;
+      background: #1a3a5c;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .pdf-nav button:disabled {
+      background: #bbb;
+      cursor: not-allowed;
+    }
+
+    .pdf-nav span {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    #loading {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo">✡ Koscher Liste Pessach</div>
+    <div class="subtitle">Komitee Kosher Wien · kosherwien.com</div>
+  </div>
+</header>
+
+<div class="search-section">
+  <label class="search-label" for="search-input">Suchen</label>
+  <div class="search-row autocomplete-wrapper">
+    <input type="text" id="search-input" placeholder="Produktname eingeben…" autocomplete="off">
+    <button id="search-btn">Suchen</button>
+    <div id="suggestions"></div>
+  </div>
+</div>
+
+<div id="result"></div>
+<div id="pdf-section" style="display:none">
+  <div class="pdf-header">
+    PDF · Seite <strong id="pdf-page-label">–</strong>
+  </div>
+  <div id="pdf-canvas-wrap">
+    <canvas id="pdf-canvas"></canvas>
+    <canvas id="highlight-overlay"></canvas>
+  </div>
+  <div class="pdf-nav">
+    <button id="prev-btn" disabled>◀ Vorher</button>
+    <span id="page-info"></span>
+    <button id="next-btn" disabled>Nächste ▶</button>
+  </div>
+  <div id="loading"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+// Configure PDF.js worker
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+let allData = null;
+let pdfDoc = null;
+let currentPage = 1;
+let currentHighlightBbox = null;
+let currentHighlightPage = null;
+let renderTask = null;
+
+// Load product data
+fetch('data.json')
+  .then(r => r.json())
+  .then(d => { allData = d; })
+  .catch(e => console.error('Could not load data.json', e));
+
+// Load PDF
+pdfjsLib.getDocument('Koscher-Liste-pessach-26.pdf').promise.then(doc => {
+  pdfDoc = doc;
+}).catch(e => console.error('Could not load PDF', e));
+
+// --- Search logic ---
+function normalizeSearch(s) {
+  return s.toLowerCase().replace(/[-–—]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function searchProducts(query) {
+  if (!allData || query.length < 2) return null;
+  const q = normalizeSearch(query);
+
+  // Search medications (pages 5-14) — exact or substring match
+  let found = allData.medications.find(p => normalizeSearch(p.name) === q);
+  if (!found) found = allData.medications.find(p => normalizeSearch(p.name).includes(q));
+
+  if (found) {
+    return { type: 'medication', entry: found };
+  }
+
+  // Search allowed list (pages 15-24)
+  let aFound = allData.allowed.find(p => normalizeSearch(p.name) === q);
+  if (!aFound) aFound = allData.allowed.find(p => normalizeSearch(p.name).includes(q));
+
+  if (aFound) {
+    return { type: 'allowed', entry: aFound };
+  }
+
+  return null;
+}
+
+function statusLabel(status) {
+  if (status === 'OK') return `<span class="status-tag status-ok">OK</span>`;
+  if (status === 'Nicht für Pessach') return `<span class="status-tag status-npe">Nicht für Pessach</span>`;
+  return `<span class="status-tag status-nko">Nicht Koscher</span>`;
+}
+
+function showResult(query) {
+  const result = searchProducts(query);
+  const resultDiv = document.getElementById('result');
+  const pdfSection = document.getElementById('pdf-section');
+
+  if (!result) {
+    resultDiv.innerHTML = `
+      <div class="badge badge-not-found">
+        <span class="badge-icon">✗</span>
+        <div>
+          <div>NICHT auf der Liste</div>
+          <div class="badge-sub">„${query}" wurde nicht gefunden</div>
+        </div>
+      </div>`;
+    pdfSection.style.display = 'none';
+    return;
+  }
+
+  const { type, entry } = result;
+
+  if (type === 'medication') {
+    const isOk = entry.status === 'OK';
+    const badgeClass = isOk ? 'badge-found' : 'badge-not-found';
+    const icon = isOk ? '✓' : '✗';
+    const label = isOk ? 'Auf der Liste' : 'NICHT auf der Liste';
+    resultDiv.innerHTML = `
+      <div class="badge ${badgeClass}">
+        <span class="badge-icon">${icon}</span>
+        <div>
+          <div>${label} ${statusLabel(entry.status)}</div>
+          <div class="badge-sub">${entry.name} · Seite ${entry.page}</div>
+        </div>
+      </div>`;
+  } else {
+    resultDiv.innerHTML = `
+      <div class="badge badge-found">
+        <span class="badge-icon">✓</span>
+        <div>
+          <div>Auf der Liste</div>
+          <div class="badge-sub">${entry.name} · Seite ${entry.page}</div>
+        </div>
+      </div>`;
+  }
+
+  // Show PDF
+  pdfSection.style.display = 'block';
+  currentHighlightBbox = entry.bbox;
+  currentHighlightPage = entry.page;
+  goToPage(entry.page);
+}
+
+// --- PDF rendering ---
+async function renderPage(num) {
+  if (!pdfDoc) { document.getElementById('loading').textContent = 'PDF wird geladen…'; return; }
+  document.getElementById('loading').textContent = '';
+
+  const page = await pdfDoc.getPage(num);
+  const canvas = document.getElementById('pdf-canvas');
+  const wrap = document.getElementById('pdf-canvas-wrap');
+  const wrapWidth = wrap.offsetWidth || 800;
+
+  const unscaledViewport = page.getViewport({ scale: 1 });
+  const scale = wrapWidth / unscaledViewport.width;
+  const viewport = page.getViewport({ scale });
+
+  canvas.width = viewport.width;
+  canvas.height = viewport.height;
+  canvas.style.width = '100%';
+  canvas.style.height = 'auto';
+
+  if (renderTask) { renderTask.cancel(); }
+  const ctx = canvas.getContext('2d');
+  renderTask = page.render({ canvasContext: ctx, viewport });
+  await renderTask.promise;
+
+  // Draw highlight
+  drawHighlight(num, scale, viewport.height);
+
+  document.getElementById('pdf-page-label').textContent = num;
+  document.getElementById('page-info').textContent = `Seite ${num} / ${pdfDoc.numPages}`;
+  document.getElementById('prev-btn').disabled = num <= 1;
+  document.getElementById('next-btn').disabled = num >= pdfDoc.numPages;
+  currentPage = num;
+}
+
+function drawHighlight(pageNum, scale, canvasHeight) {
+  const overlay = document.getElementById('highlight-overlay');
+  const canvas = document.getElementById('pdf-canvas');
+  overlay.width = canvas.width;
+  overlay.height = canvas.height;
+  overlay.style.width = canvas.style.width;
+  overlay.style.height = canvas.style.height;
+
+  if (!currentHighlightBbox || currentHighlightPage !== pageNum) return;
+
+  const ctx = overlay.getContext('2d');
+  ctx.clearRect(0, 0, overlay.width, overlay.height);
+
+  const b = currentHighlightBbox;
+  // b.x, b.y (from bottom), b.w, b.h — all in PDF user units
+  // Convert to canvas pixels: y from top = canvasHeight - (b.y + b.h) * scale
+  const padding = 3;
+  const cx = (b.x - padding) * scale;
+  const cy = canvasHeight - (b.y + b.h + padding) * scale;
+  const cw = (b.w + padding * 2) * scale;
+  const ch = (b.h + padding * 2) * scale;
+
+  ctx.fillStyle = 'rgba(144, 238, 144, 0.45)';
+  ctx.strokeStyle = 'rgba(34, 139, 34, 0.6)';
+  ctx.lineWidth = 1.5;
+  ctx.beginPath();
+  ctx.roundRect(cx, cy, cw, ch, 3);
+  ctx.fill();
+  ctx.stroke();
+}
+
+function goToPage(num) {
+  renderPage(num);
+}
+
+document.getElementById('prev-btn').addEventListener('click', () => {
+  if (currentPage > 1) renderPage(currentPage - 1);
+});
+document.getElementById('next-btn').addEventListener('click', () => {
+  if (pdfDoc && currentPage < pdfDoc.numPages) renderPage(currentPage + 1);
+});
+
+// --- Search UI ---
+document.getElementById('search-btn').addEventListener('click', () => {
+  const q = document.getElementById('search-input').value.trim();
+  document.getElementById('suggestions').innerHTML = '';
+  if (q.length >= 2) showResult(q);
+});
+
+document.getElementById('search-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    const q = document.getElementById('search-input').value.trim();
+    document.getElementById('suggestions').innerHTML = '';
+    if (q.length >= 2) showResult(q);
+  }
+});
+
+// Autocomplete suggestions
+document.getElementById('search-input').addEventListener('input', () => {
+  const q = normalizeSearch(document.getElementById('search-input').value);
+  const sugDiv = document.getElementById('suggestions');
+  sugDiv.innerHTML = '';
+
+  if (!allData || q.length < 2) return;
+
+  const matches = [];
+
+  allData.medications.forEach(p => {
+    if (normalizeSearch(p.name).includes(q)) matches.push({ ...p, _type: 'med' });
+  });
+  allData.allowed.forEach(p => {
+    if (normalizeSearch(p.name).includes(q)) matches.push({ ...p, _type: 'allowed' });
+  });
+
+  matches.slice(0, 8).forEach(m => {
+    const div = document.createElement('div');
+    const statusHint = m._type === 'med'
+      ? `<span class="sug-status">(${m.status})</span>`
+      : `<span class="sug-status">(Erlaubt · S.${m.page})</span>`;
+    div.innerHTML = `${m.name} ${statusHint}`;
+    div.addEventListener('mousedown', () => {
+      document.getElementById('search-input').value = m.name;
+      sugDiv.innerHTML = '';
+      showResult(m.name);
+    });
+    sugDiv.appendChild(div);
+  });
+});
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.autocomplete-wrapper')) {
+    document.getElementById('suggestions').innerHTML = '';
+  }
+});
+</script>
+</body>
+</html>
