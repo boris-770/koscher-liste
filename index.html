@@ -24,21 +24,41 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.18);
     }
 
-    header .logo {
-      font-size: 1.6rem;
-      font-weight: 700;
-      letter-spacing: 0.02em;
+    header .logo { font-size: 1.6rem; font-weight: 700; letter-spacing: 0.02em; }
+    header .subtitle { font-size: 0.85rem; opacity: 0.75; margin-top: 2px; }
+
+    /* ── Tabs ── */
+    .tabs {
+      max-width: 700px;
+      margin: 28px auto 0;
+      padding: 0 16px;
+      display: flex;
+      gap: 8px;
     }
 
-    header .subtitle {
-      font-size: 0.85rem;
-      opacity: 0.75;
-      margin-top: 2px;
+    .tab-btn {
+      flex: 1;
+      padding: 11px 10px;
+      background: #fff;
+      border: 2px solid #c8c0a8;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #555;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
     }
 
+    .tab-btn.active {
+      background: #1a3a5c;
+      color: #fff;
+      border-color: #1a3a5c;
+    }
+
+    /* ── Text search section ── */
     .search-section {
       max-width: 700px;
-      margin: 36px auto 0;
+      margin: 20px auto 0;
       padding: 0 16px;
     }
 
@@ -50,10 +70,7 @@
       margin-bottom: 8px;
     }
 
-    .search-row {
-      display: flex;
-      gap: 8px;
-    }
+    .search-row { display: flex; gap: 8px; }
 
     .search-row input {
       flex: 1;
@@ -66,11 +83,9 @@
       transition: border-color 0.2s;
     }
 
-    .search-row input:focus {
-      border-color: #1a3a5c;
-    }
+    .search-row input:focus { border-color: #1a3a5c; }
 
-    .search-row button {
+    .search-row button, .primary-btn {
       padding: 12px 22px;
       background: #1a3a5c;
       color: #fff;
@@ -82,11 +97,161 @@
       transition: background 0.2s;
     }
 
-    .search-row button:hover {
-      background: #254d78;
+    .search-row button:hover, .primary-btn:hover { background: #254d78; }
+
+    /* ── Camera / OCR section ── */
+    .camera-section {
+      max-width: 700px;
+      margin: 20px auto 0;
+      padding: 0 16px;
     }
 
-    /* Result badge */
+    .upload-area {
+      border: 2.5px dashed #b8b0a0;
+      border-radius: 12px;
+      background: #fff;
+      text-align: center;
+      padding: 32px 20px;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      position: relative;
+    }
+
+    .upload-area:hover, .upload-area.drag-over {
+      border-color: #1a3a5c;
+      background: #f0f6ff;
+    }
+
+    .upload-area input[type=file] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+    }
+
+    .upload-icon { font-size: 2.8rem; margin-bottom: 8px; }
+
+    .upload-area p {
+      font-size: 0.95rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .upload-area strong { color: #1a3a5c; }
+
+    /* Image preview */
+    #img-preview-wrap {
+      margin-top: 16px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+      background: #000;
+      display: none;
+      position: relative;
+    }
+
+    #img-preview {
+      display: block;
+      max-width: 100%;
+      max-height: 340px;
+      margin: 0 auto;
+      object-fit: contain;
+    }
+
+    /* OCR progress */
+    #ocr-status {
+      margin-top: 14px;
+      display: none;
+    }
+
+    .progress-label {
+      font-size: 0.88rem;
+      color: #555;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .progress-bar-bg {
+      height: 7px;
+      background: #e0dbd0;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: #1a3a5c;
+      border-radius: 10px;
+      width: 0%;
+      transition: width 0.3s;
+    }
+
+    /* OCR results */
+    #ocr-results {
+      margin-top: 20px;
+    }
+
+    .ocr-results-header {
+      font-size: 0.88rem;
+      color: #777;
+      margin-bottom: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .ocr-result-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: #fff;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      border: 1.5px solid #e0dbd0;
+      cursor: pointer;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .ocr-result-item:hover {
+      border-color: #1a3a5c;
+      box-shadow: 0 2px 8px rgba(26,58,92,0.1);
+    }
+
+    .ocr-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .dot-ok { background: #3aaa5e; }
+    .dot-npe { background: #e8a020; }
+    .dot-nko { background: #d63333; }
+    .dot-allowed { background: #3aaa5e; }
+
+    .ocr-item-name {
+      flex: 1;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .ocr-item-status {
+      font-size: 0.82rem;
+      color: #666;
+    }
+
+    .ocr-none {
+      padding: 14px;
+      color: #888;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    /* ── Result badge (single search) ── */
     #result {
       max-width: 700px;
       margin: 20px auto 0;
@@ -104,33 +269,20 @@
       width: 100%;
     }
 
-    .badge-found {
-      background: #e6f4ea;
-      color: #1b6b35;
-      border: 2px solid #7ec89a;
-    }
-
-    .badge-not-found {
-      background: #fdecea;
-      color: #b71c1c;
-      border: 2px solid #e57373;
-    }
-
-    .badge-icon {
-      font-size: 1.4rem;
-    }
+    .badge-found { background: #e6f4ea; color: #1b6b35; border: 2px solid #7ec89a; }
+    .badge-not-found { background: #fdecea; color: #b71c1c; border: 2px solid #e57373; }
+    .badge-icon { font-size: 1.4rem; }
 
     .badge-sub {
       font-size: 0.85rem;
       font-weight: 400;
-      color: inherit;
       opacity: 0.8;
       margin-top: 2px;
     }
 
     .status-tag {
       display: inline-block;
-      margin-left: 12px;
+      margin-left: 8px;
       padding: 2px 10px;
       border-radius: 20px;
       font-size: 0.82rem;
@@ -138,14 +290,12 @@
       vertical-align: middle;
     }
 
-    .status-ok { background: #d4edda; color: #1b6b35; }
+    .status-ok  { background: #d4edda; color: #1b6b35; }
     .status-npe { background: #fff3cd; color: #856404; }
     .status-nko { background: #f8d7da; color: #721c24; }
 
-    /* Suggestions dropdown */
-    .autocomplete-wrapper {
-      position: relative;
-    }
+    /* ── Autocomplete ── */
+    .autocomplete-wrapper { position: relative; }
 
     #suggestions {
       position: absolute;
@@ -171,14 +321,9 @@
 
     #suggestions div:last-child { border-bottom: none; }
     #suggestions div:hover { background: #f0f7ff; }
+    #suggestions .sug-status { font-size: 0.78rem; color: #888; margin-left: 6px; }
 
-    #suggestions .sug-status {
-      font-size: 0.78rem;
-      color: #888;
-      margin-left: 6px;
-    }
-
-    /* PDF viewer */
+    /* ── PDF viewer ── */
     #pdf-section {
       max-width: 900px;
       margin: 28px auto 48px;
@@ -189,16 +334,12 @@
       font-size: 0.92rem;
       color: #555;
       margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
     }
 
     .pdf-header strong { color: #1a3a5c; }
 
     #pdf-canvas-wrap {
       position: relative;
-      display: inline-block;
       border: 1px solid #ccc;
       border-radius: 4px;
       overflow: hidden;
@@ -207,10 +348,7 @@
       width: 100%;
     }
 
-    #pdf-canvas {
-      display: block;
-      width: 100%;
-    }
+    #pdf-canvas { display: block; width: 100%; }
 
     #highlight-overlay {
       position: absolute;
@@ -236,21 +374,33 @@
       font-size: 0.9rem;
     }
 
-    .pdf-nav button:disabled {
-      background: #bbb;
-      cursor: not-allowed;
-    }
+    .pdf-nav button:disabled { background: #bbb; cursor: not-allowed; }
+    .pdf-nav span { font-size: 0.9rem; color: #555; }
 
-    .pdf-nav span {
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    #loading {
+    #pdf-render-loading {
       text-align: center;
-      padding: 20px;
+      padding: 16px;
       color: #888;
       font-size: 0.9rem;
+    }
+
+    /* Divider */
+    .section-divider {
+      max-width: 700px;
+      margin: 28px auto 0;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: #aaa;
+      font-size: 0.8rem;
+    }
+
+    .section-divider::before, .section-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #d8d0c0;
     }
   </style>
 </head>
@@ -263,16 +413,58 @@
   </div>
 </header>
 
-<div class="search-section">
-  <label class="search-label" for="search-input">Suchen</label>
-  <div class="search-row autocomplete-wrapper">
-    <input type="text" id="search-input" placeholder="Produktname eingeben…" autocomplete="off">
-    <button id="search-btn">Suchen</button>
-    <div id="suggestions"></div>
+<!-- Tabs -->
+<div class="tabs">
+  <button class="tab-btn active" id="tab-text">Suchen</button>
+  <button class="tab-btn" id="tab-camera">Foto scannen</button>
+</div>
+
+<!-- ═══ TEXT SEARCH ═══ -->
+<div id="panel-text">
+  <div class="search-section">
+    <label class="search-label" for="search-input">Suchen</label>
+    <div class="search-row autocomplete-wrapper">
+      <input type="text" id="search-input" placeholder="Produktname eingeben…" autocomplete="off">
+      <button id="search-btn">Suchen</button>
+      <div id="suggestions"></div>
+    </div>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<!-- ═══ CAMERA / OCR ═══ -->
+<div id="panel-camera" style="display:none">
+  <div class="camera-section">
+
+    <div class="upload-area" id="upload-area">
+      <!-- On mobile: capture="environment" opens rear camera directly -->
+      <input type="file" id="photo-input" accept="image/*" capture="environment">
+      <div class="upload-icon">📷</div>
+      <p><strong>Foto aufnehmen oder hochladen</strong><br>
+        Tippe hier, um die Kamera zu öffnen oder ein Bild auszuwählen</p>
+    </div>
+
+    <div id="img-preview-wrap">
+      <img id="img-preview" alt="Vorschau">
+    </div>
+
+    <div id="ocr-status">
+      <div class="progress-label">
+        <span id="ocr-status-text">Wird gescannt…</span>
+        <span id="ocr-pct">0%</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="ocr-bar"></div>
+      </div>
+    </div>
+
+    <div id="ocr-results"></div>
+
   </div>
 </div>
 
-<div id="result"></div>
+<!-- ═══ PDF VIEWER (shared) ═══ -->
 <div id="pdf-section" style="display:none">
   <div class="pdf-header">
     PDF · Seite <strong id="pdf-page-label">–</strong>
@@ -286,57 +478,69 @@
     <span id="page-info"></span>
     <button id="next-btn" disabled>Nächste ▶</button>
   </div>
-  <div id="loading"></div>
+  <div id="pdf-render-loading"></div>
 </div>
 
+
+<!-- PDF.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<!-- Tesseract.js v5 -->
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+
 <script>
-// Configure PDF.js worker
+// ─── Setup ───────────────────────────────────────────────────────────────────
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
 let allData = null;
-let pdfDoc = null;
+let pdfDoc  = null;
 let currentPage = 1;
 let currentHighlightBbox = null;
 let currentHighlightPage = null;
 let renderTask = null;
 
-// Load product data
 fetch('data.json')
   .then(r => r.json())
   .then(d => { allData = d; })
-  .catch(e => console.error('Could not load data.json', e));
+  .catch(e => console.error('data.json missing', e));
 
-// Load PDF
-pdfjsLib.getDocument('Koscher-Liste-pessach-26.pdf').promise.then(doc => {
-  pdfDoc = doc;
-}).catch(e => console.error('Could not load PDF', e));
+pdfjsLib.getDocument('Koscher-Liste-pessach-26.pdf').promise
+  .then(doc => { pdfDoc = doc; })
+  .catch(e => console.error('PDF missing', e));
 
-// --- Search logic ---
-function normalizeSearch(s) {
-  return s.toLowerCase().replace(/[-–—]/g, ' ').replace(/\s+/g, ' ').trim();
+// ─── Tabs ─────────────────────────────────────────────────────────────────────
+document.getElementById('tab-text').addEventListener('click', () => {
+  document.getElementById('tab-text').classList.add('active');
+  document.getElementById('tab-camera').classList.remove('active');
+  document.getElementById('panel-text').style.display = '';
+  document.getElementById('panel-camera').style.display = 'none';
+});
+
+document.getElementById('tab-camera').addEventListener('click', () => {
+  document.getElementById('tab-camera').classList.add('active');
+  document.getElementById('tab-text').classList.remove('active');
+  document.getElementById('panel-camera').style.display = '';
+  document.getElementById('panel-text').style.display = 'none';
+});
+
+// ─── Search helpers ───────────────────────────────────────────────────────────
+function norm(s) {
+  return s.toLowerCase()
+    .replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue').replace(/ß/g,'ss')
+    .replace(/[-–—]/g,' ').replace(/\s+/g,' ').trim();
 }
 
 function searchProducts(query) {
   if (!allData || query.length < 2) return null;
-  const q = normalizeSearch(query);
+  const q = norm(query);
 
-  // Search medications (pages 5-14) — exact or substring match
-  let found = allData.medications.find(p => normalizeSearch(p.name) === q);
-  if (!found) found = allData.medications.find(p => normalizeSearch(p.name).includes(q));
+  let found = allData.medications.find(p => norm(p.name) === q);
+  if (!found) found = allData.medications.find(p => norm(p.name).includes(q));
+  if (found) return { type: 'medication', entry: found };
 
-  if (found) {
-    return { type: 'medication', entry: found };
-  }
-
-  // Search allowed list (pages 15-24)
-  let aFound = allData.allowed.find(p => normalizeSearch(p.name) === q);
-  if (!aFound) aFound = allData.allowed.find(p => normalizeSearch(p.name).includes(q));
-
-  if (aFound) {
-    return { type: 'allowed', entry: aFound };
-  }
+  let aFound = allData.allowed.find(p => norm(p.name) === q);
+  if (!aFound) aFound = allData.allowed.find(p => norm(p.name).includes(q));
+  if (aFound) return { type: 'allowed', entry: aFound };
 
   return null;
 }
@@ -347,83 +551,85 @@ function statusLabel(status) {
   return `<span class="status-tag status-nko">Nicht Koscher</span>`;
 }
 
+// ─── Single result display ────────────────────────────────────────────────────
 function showResult(query) {
-  const result = searchProducts(query);
-  const resultDiv = document.getElementById('result');
-  const pdfSection = document.getElementById('pdf-section');
+  const res    = searchProducts(query);
+  const resDiv = document.getElementById('result');
+  const pdfSec = document.getElementById('pdf-section');
 
-  if (!result) {
-    resultDiv.innerHTML = `
+  if (!res) {
+    resDiv.innerHTML = `
       <div class="badge badge-not-found">
         <span class="badge-icon">✗</span>
         <div>
           <div>NICHT auf der Liste</div>
-          <div class="badge-sub">„${query}" wurde nicht gefunden</div>
+          <div class="badge-sub">„${escHtml(query)}" wurde nicht gefunden</div>
         </div>
       </div>`;
-    pdfSection.style.display = 'none';
+    pdfSec.style.display = 'none';
     return;
   }
 
-  const { type, entry } = result;
-
+  const { type, entry } = res;
   if (type === 'medication') {
-    const isOk = entry.status === 'OK';
-    const badgeClass = isOk ? 'badge-found' : 'badge-not-found';
-    const icon = isOk ? '✓' : '✗';
-    const label = isOk ? 'Auf der Liste' : 'NICHT auf der Liste';
-    resultDiv.innerHTML = `
-      <div class="badge ${badgeClass}">
-        <span class="badge-icon">${icon}</span>
+    const ok = entry.status === 'OK';
+    resDiv.innerHTML = `
+      <div class="badge ${ok ? 'badge-found' : 'badge-not-found'}">
+        <span class="badge-icon">${ok ? '✓' : '✗'}</span>
         <div>
-          <div>${label} ${statusLabel(entry.status)}</div>
-          <div class="badge-sub">${entry.name} · Seite ${entry.page}</div>
+          <div>${ok ? 'Auf der Liste' : 'NICHT auf der Liste'} ${statusLabel(entry.status)}</div>
+          <div class="badge-sub">${escHtml(entry.name)} · Seite ${entry.page}</div>
         </div>
       </div>`;
   } else {
-    resultDiv.innerHTML = `
+    resDiv.innerHTML = `
       <div class="badge badge-found">
         <span class="badge-icon">✓</span>
         <div>
           <div>Auf der Liste</div>
-          <div class="badge-sub">${entry.name} · Seite ${entry.page}</div>
+          <div class="badge-sub">${escHtml(entry.name)} · Seite ${entry.page}</div>
         </div>
       </div>`;
   }
 
-  // Show PDF
-  pdfSection.style.display = 'block';
-  currentHighlightBbox = entry.bbox;
-  currentHighlightPage = entry.page;
-  goToPage(entry.page);
+  showPdf(entry.page, entry.bbox);
 }
 
-// --- PDF rendering ---
+function showPdf(page, bbox) {
+  const pdfSec = document.getElementById('pdf-section');
+  pdfSec.style.display = 'block';
+  currentHighlightBbox = bbox;
+  currentHighlightPage = page;
+  renderPage(page);
+  pdfSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ─── PDF rendering ────────────────────────────────────────────────────────────
 async function renderPage(num) {
-  if (!pdfDoc) { document.getElementById('loading').textContent = 'PDF wird geladen…'; return; }
-  document.getElementById('loading').textContent = '';
+  const loadEl = document.getElementById('pdf-render-loading');
+  if (!pdfDoc) { loadEl.textContent = 'PDF wird geladen…'; return; }
+  loadEl.textContent = '';
 
   const page = await pdfDoc.getPage(num);
   const canvas = document.getElementById('pdf-canvas');
-  const wrap = document.getElementById('pdf-canvas-wrap');
-  const wrapWidth = wrap.offsetWidth || 800;
+  const wrap   = document.getElementById('pdf-canvas-wrap');
+  const scale  = (wrap.offsetWidth || 800) / page.getViewport({ scale: 1 }).width;
+  const vp     = page.getViewport({ scale });
 
-  const unscaledViewport = page.getViewport({ scale: 1 });
-  const scale = wrapWidth / unscaledViewport.width;
-  const viewport = page.getViewport({ scale });
-
-  canvas.width = viewport.width;
-  canvas.height = viewport.height;
-  canvas.style.width = '100%';
+  canvas.width  = vp.width;
+  canvas.height = vp.height;
+  canvas.style.width  = '100%';
   canvas.style.height = 'auto';
 
-  if (renderTask) { renderTask.cancel(); }
-  const ctx = canvas.getContext('2d');
-  renderTask = page.render({ canvasContext: ctx, viewport });
+  if (renderTask) renderTask.cancel();
+  renderTask = page.render({ canvasContext: canvas.getContext('2d'), viewport: vp });
   await renderTask.promise;
 
-  // Draw highlight
-  drawHighlight(num, scale, viewport.height);
+  drawHighlight(num, scale, vp.height);
 
   document.getElementById('pdf-page-label').textContent = num;
   document.getElementById('page-info').textContent = `Seite ${num} / ${pdfDoc.numPages}`;
@@ -432,12 +638,12 @@ async function renderPage(num) {
   currentPage = num;
 }
 
-function drawHighlight(pageNum, scale, canvasHeight) {
+function drawHighlight(pageNum, scale, canvasH) {
   const overlay = document.getElementById('highlight-overlay');
-  const canvas = document.getElementById('pdf-canvas');
-  overlay.width = canvas.width;
+  const canvas  = document.getElementById('pdf-canvas');
+  overlay.width  = canvas.width;
   overlay.height = canvas.height;
-  overlay.style.width = canvas.style.width;
+  overlay.style.width  = canvas.style.width;
   overlay.style.height = canvas.style.height;
 
   if (!currentHighlightBbox || currentHighlightPage !== pageNum) return;
@@ -446,25 +652,19 @@ function drawHighlight(pageNum, scale, canvasHeight) {
   ctx.clearRect(0, 0, overlay.width, overlay.height);
 
   const b = currentHighlightBbox;
-  // b.x, b.y (from bottom), b.w, b.h — all in PDF user units
-  // Convert to canvas pixels: y from top = canvasHeight - (b.y + b.h) * scale
-  const padding = 3;
-  const cx = (b.x - padding) * scale;
-  const cy = canvasHeight - (b.y + b.h + padding) * scale;
-  const cw = (b.w + padding * 2) * scale;
-  const ch = (b.h + padding * 2) * scale;
+  const pad = 3;
+  const cx = (b.x - pad) * scale;
+  const cy = canvasH - (b.y + b.h + pad) * scale;
+  const cw = (b.w + pad * 2) * scale;
+  const ch = (b.h + pad * 2) * scale;
 
-  ctx.fillStyle = 'rgba(144, 238, 144, 0.45)';
-  ctx.strokeStyle = 'rgba(34, 139, 34, 0.6)';
-  ctx.lineWidth = 1.5;
+  ctx.fillStyle   = 'rgba(144,238,144,0.45)';
+  ctx.strokeStyle = 'rgba(34,139,34,0.65)';
+  ctx.lineWidth   = 1.5;
   ctx.beginPath();
   ctx.roundRect(cx, cy, cw, ch, 3);
   ctx.fill();
   ctx.stroke();
-}
-
-function goToPage(num) {
-  renderPage(num);
 }
 
 document.getElementById('prev-btn').addEventListener('click', () => {
@@ -474,7 +674,7 @@ document.getElementById('next-btn').addEventListener('click', () => {
   if (pdfDoc && currentPage < pdfDoc.numPages) renderPage(currentPage + 1);
 });
 
-// --- Search UI ---
+// ─── Text search UI ───────────────────────────────────────────────────────────
 document.getElementById('search-btn').addEventListener('click', () => {
   const q = document.getElementById('search-input').value.trim();
   document.getElementById('suggestions').innerHTML = '';
@@ -489,29 +689,26 @@ document.getElementById('search-input').addEventListener('keydown', e => {
   }
 });
 
-// Autocomplete suggestions
 document.getElementById('search-input').addEventListener('input', () => {
-  const q = normalizeSearch(document.getElementById('search-input').value);
+  const q = norm(document.getElementById('search-input').value);
   const sugDiv = document.getElementById('suggestions');
   sugDiv.innerHTML = '';
-
   if (!allData || q.length < 2) return;
 
   const matches = [];
-
   allData.medications.forEach(p => {
-    if (normalizeSearch(p.name).includes(q)) matches.push({ ...p, _type: 'med' });
+    if (norm(p.name).includes(q)) matches.push({ ...p, _type: 'med' });
   });
   allData.allowed.forEach(p => {
-    if (normalizeSearch(p.name).includes(q)) matches.push({ ...p, _type: 'allowed' });
+    if (norm(p.name).includes(q)) matches.push({ ...p, _type: 'allowed' });
   });
 
   matches.slice(0, 8).forEach(m => {
     const div = document.createElement('div');
-    const statusHint = m._type === 'med'
+    const hint = m._type === 'med'
       ? `<span class="sug-status">(${m.status})</span>`
       : `<span class="sug-status">(Erlaubt · S.${m.page})</span>`;
-    div.innerHTML = `${m.name} ${statusHint}`;
+    div.innerHTML = escHtml(m.name) + ' ' + hint;
     div.addEventListener('mousedown', () => {
       document.getElementById('search-input').value = m.name;
       sugDiv.innerHTML = '';
@@ -522,10 +719,165 @@ document.getElementById('search-input').addEventListener('input', () => {
 });
 
 document.addEventListener('click', e => {
-  if (!e.target.closest('.autocomplete-wrapper')) {
+  if (!e.target.closest('.autocomplete-wrapper'))
     document.getElementById('suggestions').innerHTML = '';
-  }
 });
+
+// ─── OCR / Camera ─────────────────────────────────────────────────────────────
+const photoInput = document.getElementById('photo-input');
+const uploadArea = document.getElementById('upload-area');
+
+// Drag & drop support on desktop
+uploadArea.addEventListener('dragover', e => { e.preventDefault(); uploadArea.classList.add('drag-over'); });
+uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('drag-over'));
+uploadArea.addEventListener('drop', e => {
+  e.preventDefault();
+  uploadArea.classList.remove('drag-over');
+  const file = e.dataTransfer.files[0];
+  if (file && file.type.startsWith('image/')) processImage(file);
+});
+
+photoInput.addEventListener('change', () => {
+  if (photoInput.files[0]) processImage(photoInput.files[0]);
+  photoInput.value = ''; // reset so same file can be re-selected
+});
+
+async function processImage(file) {
+  // Show preview
+  const previewWrap = document.getElementById('img-preview-wrap');
+  const previewImg  = document.getElementById('img-preview');
+  const url = URL.createObjectURL(file);
+  previewImg.src = url;
+  previewWrap.style.display = 'block';
+
+  // Clear previous OCR results
+  document.getElementById('ocr-results').innerHTML = '';
+  document.getElementById('pdf-section').style.display = 'none';
+
+  // Show progress
+  const statusWrap = document.getElementById('ocr-status');
+  const statusText = document.getElementById('ocr-status-text');
+  const pctEl      = document.getElementById('ocr-pct');
+  const barEl      = document.getElementById('ocr-bar');
+  statusWrap.style.display = 'block';
+  statusText.textContent   = 'OCR wird initialisiert…';
+  pctEl.textContent = '0%';
+  barEl.style.width = '0%';
+
+  try {
+    const result = await Tesseract.recognize(file, 'deu', {
+      logger: m => {
+        if (m.status === 'recognizing text') {
+          const pct = Math.round(m.progress * 100);
+          barEl.style.width = pct + '%';
+          pctEl.textContent = pct + '%';
+          statusText.textContent = 'Texterkennung läuft…';
+        } else if (m.status === 'loading tesseract core') {
+          statusText.textContent = 'Lade OCR-Engine…';
+        } else if (m.status === 'loading language traineddata') {
+          statusText.textContent = 'Lade Sprachmodell (Deutsch)…';
+        } else if (m.status === 'initializing api') {
+          statusText.textContent = 'Initialisiere…';
+        }
+      }
+    });
+
+    barEl.style.width = '100%';
+    pctEl.textContent = '100%';
+    statusText.textContent = 'Scan abgeschlossen';
+
+    const rawText = result.data.text;
+    matchOcrResults(rawText);
+
+  } catch (err) {
+    statusText.textContent = 'Fehler beim Scannen: ' + err.message;
+    barEl.style.width = '0%';
+  }
+}
+
+/**
+ * Try all n-gram windows (1–6 words) over every line of OCR output.
+ * Collect best unique matches ranked by name length (longer = more specific).
+ */
+function matchOcrResults(rawText) {
+  if (!allData) {
+    document.getElementById('ocr-results').innerHTML =
+      '<div class="ocr-none">Daten werden noch geladen, bitte erneut versuchen.</div>';
+    return;
+  }
+
+  const lines = rawText.split(/\n+/).map(l => l.trim()).filter(l => l.length > 2);
+  const foundNames = new Set();
+  const hits = [];
+
+  for (const line of lines) {
+    const words = line.split(/\s+/);
+    // Try ngrams from largest to smallest for best specificity
+    for (let size = Math.min(words.length, 7); size >= 1; size--) {
+      for (let start = 0; start <= words.length - size; start++) {
+        const phrase = words.slice(start, start + size).join(' ');
+        if (phrase.length < 3) continue;
+
+        const res = searchProducts(phrase);
+        if (res && !foundNames.has(norm(res.entry.name))) {
+          foundNames.add(norm(res.entry.name));
+          hits.push(res);
+        }
+      }
+    }
+  }
+
+  // Sort: medications first (have explicit status), then by name length desc
+  hits.sort((a, b) => {
+    if (a.type !== b.type) return a.type === 'medication' ? -1 : 1;
+    return b.entry.name.length - a.entry.name.length;
+  });
+
+  renderOcrResults(hits);
+}
+
+function renderOcrResults(hits) {
+  const container = document.getElementById('ocr-results');
+
+  if (hits.length === 0) {
+    container.innerHTML = '<div class="ocr-none">Keine Produkte auf dem Bild erkannt.<br>Versuche ein schärferes Foto des Produktnamens.</div>';
+    return;
+  }
+
+  const header = document.createElement('div');
+  header.className = 'ocr-results-header';
+  header.textContent = `${hits.length} Produkt${hits.length > 1 ? 'e' : ''} erkannt`;
+  container.appendChild(header);
+
+  hits.forEach(hit => {
+    const { type, entry } = hit;
+    const isOk = type === 'allowed' || entry.status === 'OK';
+    const statusText = type === 'medication' ? entry.status : 'Erlaubt';
+
+    let dotClass = 'dot-allowed';
+    if (type === 'medication') {
+      if (entry.status === 'OK') dotClass = 'dot-ok';
+      else if (entry.status === 'Nicht für Pessach') dotClass = 'dot-npe';
+      else dotClass = 'dot-nko';
+    }
+
+    const item = document.createElement('div');
+    item.className = 'ocr-result-item';
+    item.innerHTML = `
+      <div class="ocr-dot ${dotClass}"></div>
+      <div class="ocr-item-name">${escHtml(entry.name)}</div>
+      <div class="ocr-item-status">${escHtml(statusText)} · S.${entry.page}</div>
+    `;
+
+    item.addEventListener('click', () => {
+      showPdf(entry.page, entry.bbox);
+      // Scroll to PDF
+      document.getElementById('pdf-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    container.appendChild(item);
+  });
+}
 </script>
 </body>
 </html>
